@@ -1,66 +1,59 @@
-"use client";
 import Link from "next/link";
 import React from "react";
-import { useMediaQuery } from "react-responsive";
 
 function Navigation(props) {
-  const tabView = useMediaQuery({
-    query: "(max-width: 768px)",
-  });
+ 
   return (
-    <div className="flex items-center 2xl:justify-center md:gap-6 2xl:w-w-main md:w-full ">
-      <div className="2xl:w-48  2xl:flex md:w-1/5 sm:w-1/6 md:flex md:justify-start md:w-38 2xl:ml-10">
+
+    <div className="bg-transparent filter w-full fixed top-0 pt-5 pb-10">
+      <div  className="bg-white p-2.5 m-auto rounded-xl w-9/12 top-2.5 2xl:right-20 shadow-lg">
+      <div className="flex items-center 2xl:justify-between md:justify-start 2xl:w-w-main md:w-full ">
+      <div className="lg:max-w-52 2xl:w-1/4  2xl:flex md:w-1/5 sm:w-1/6 md:flex md:justify-start md:w-38 2xl:ml-10">
         <Link href="/">
           <img src="BlendStudylogo.svg" alt="logo" />
         </Link>
       </div>
       <div></div>
-      <div className="flex items-center justify-center  text-gray-700 2xl:text-xl md:text-md 2xl:gap-20 md:gap-5 2xl:w-5/6 lg:w-11/12  cursor-pointer">
+      <div className="flex items-center lg:justify-center 2xl:justify-center md:justify-evenly  text-gray-700 2xl:text-xl md:text-md 2xl:gap-20 2xl:w-90 lg:w-11/12 md:w-6/12 md:mr-2 cursor-pointer">
         <div
-          className={`${
-            props.name === "Home" ? "hidden" : "flex"
-          } text-black  2xl:text-xl lg:text-md md:text-sm sm:text-sm sm:w-28`}
+          className={`text-black  2xl:text-xl lg:text-md md:text-sm sm:text-sm `}
         >
-          <Link href="/services">Services</Link>
+          <Link href="/services">{props.option}</Link>
         </div>
         <div
           className={`${
             props.name === "Home" ? "text-black" : ""
-          }   2xl:text-xl lg:text-md md:text-sm`}
+          }   2xl:text-xl lg:text-md md:text-sm `}
         >
           About Us
         </div>
-        <div className=" 2xl:text-xl lg:text-md md:text-sm ">Features</div>
-        {!tabView ? (
-          <div
-            className={`${props.name === "Home" ? "flex" : "hidden"}   sm:w-20`}
-          >
-            <img src="Group 237876.png" alt="pic" />
-          </div>
-        ) : null}
+        <div className="2xl:text-xl lg:text-md md:text-sm">Features</div>
+      
         <div
-          className={`${
-            props.name === "Home" ? "flex" : "hidden"
-          } 2xl:text-xl md:text-sm `}
+          className={`2xl:text-xl md:text-sm flex items-center 2xl:gap-5 md:gap-1`}
         >
-          Are you a teacher?
+       <span  className={`${props.name === "Are you a teacher?" ? "flex" : "hidden"}  `}> <img className="md:w-9 2xl:w-16" src="Group 237876.png" alt="pic" /></span> {props.name}
         </div>
       </div>
-      <div className="lg:gap-2 2xl:w-1/4 lg:w-2/4  md:w-50 flex md:gap-2  2xl:justify-end">
+      <div className="lg:gap-2 2xl:w-1/4 lg:w-2/4  md:w-48 flex md:gap-2 2xl:justify-end">
         <div>
-          {" "}
-          <button className="2xl:py-2.5 2xl:px-10 lg:py-2.5 lg:px-5 md:px-5 md:text-md md:py-1 rounded-md text-black border border-color">
+        
+          <button className="2xl:py-2.5 2xl:px-10 lg:py-2.5 lg:px-5 md:px-5 md:text-sm md:py-1 rounded-md text-black border border-color text-nowrap font-inter">
             Sign Up
           </button>
         </div>
         <div>
-          {" "}
-          <button className="text-white bg-background-color 2xl:py-2.5 2xl:px-10 md:text-md lg:px-10 md:py-1 md:px-5 rounded-md">
-            Log IN
+          <button className="text-white border border-color bg-background-color 2xl:py-2.5 2xl:px-10 lg:py-2.5 lg:px-5 md:px-5 md:text-sm md:py-1 rounded-md text-nowrap">
+            Log In
           </button>
         </div>
       </div>
     </div>
+      </div>
+    </div>
+
+
+    
   );
 }
 

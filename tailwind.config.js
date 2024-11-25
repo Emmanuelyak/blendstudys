@@ -10,42 +10,47 @@ module.exports = {
       colors: {
         "background-color": "#00A79E",
         "border-color": "#00A79E",
-        "color": "#00A79E",
-        "main" : "#fffff",
-        "sub-bg": "#e5f6f5"
+        color: "#00A79E",
+        main: "#fffff",
+        "sub-bg": "#e5f6f5",
       },
+
+      fontFamily: {
+        inter: ["Inter", "tahoma"],
+      },
+
       borderWidth: {
-        'custom-left': '0px 0 0 2px' // This creates border only on the left side
+        "custom-rt": "0px 2px 0px 0px",
+        "custom-left": "0px 0 0 2px", // This creates border only on the left side
       },
       borderColor: {
-        'custom-teal': '#00A79E'
+        "custom-teal": "#00A79E",
       },
       height: {
-        "120" : "51rem"
+        120: "51rem",
       },
       width: {
-        "100" : "95%",
-        "w-main" : "97%"
+        100: "95%",
+        "w-main": "97%",
+        "1/2": "20%",
       },
-      fontSize : {
-        "4.5x" : "42px"
+      fontSize: {
+        "4.5x": "42px",
       },
-      backgroundImage : {
-          "bg1" : "url('/pile-paperback-books-table.jpg')",
-          "backgroundOverlay" : "linear-gradient(#00A79E, transparent)"
-          // "bg2" : "istockphoto-1605124960-612x612 1.png",
-          // "bg3": "pexels-photo-8062289 1.png",
-          // "bg4" :"istockphoto-507400394-612x612 1.png"
+      backgroundImage: {
+        bg1: "url('/pile-paperback-books-table.jpg')",
+        backgroundOverlay: "linear-gradient(#00A79E, transparent)",
+        // "bg2" : "istockphoto-1605124960-612x612 1.png",
+        // "bg3": "pexels-photo-8062289 1.png",
+        // "bg4" :"istockphoto-507400394-612x612 1.png"
       },
       backgroundColor: {
-        "sub-bg1": "#e5f6f5"
-      }
+        "sub-bg1": "#e5f6f5",
+      },
     },
   },
-  plugins: [
-    require('tailwind-scrollbar')({ nocompatible: true }),
-  ],
+  plugins: [require("tailwind-scrollbar")({ nocompatible: true })],
   variants: {
-    scrollbar: ['rounded']
-  }
+    scrollbar: ["rounded"],
+  },
 };

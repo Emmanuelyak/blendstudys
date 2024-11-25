@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import { FaChevronUp, FaChevronDown } from "react-icons/fa6";
 import Navigation from "../Navigation/Navigation";
@@ -9,7 +10,7 @@ function Services() {
     <div className="relative">
       <div className="w-full bg-white  fixed z-50 top-0 pt-10 pb-10">
         <div className="bg-white p-2.5 m-auto rounded-2xl w-11/12 top-10 2xl:right-20 shadow-lg ">
-          <Navigation />
+          <Navigation name="Services" option="Services" />
         </div>
       </div>
 
