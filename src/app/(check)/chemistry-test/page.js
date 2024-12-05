@@ -1,5 +1,5 @@
 import React from "react";
-import AdminNav from "../adminNav";
+import AdminNav from "../admin-nav";
 
 export default function ChemistryTest() {
   return (
@@ -19,7 +19,7 @@ export default function ChemistryTest() {
 
         <div className="mb-10">
           <button className="bg-background-color py-4 text-white text-xl px-10 text-nowrap rounded-md">
-          Create Test Question
+            Create Test Question
           </button>
         </div>
       </div>

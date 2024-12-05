@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import AdminNav from "../adminNav";
+import AdminNav from "../admin-nav";
 import { Dropdown } from "rsuite";
 
 export default function AllTest() {
@@ -9,7 +9,12 @@ export default function AllTest() {
       <div className="h-1/4">
         <AdminNav title={"Brainwave - All Test"} />
       </div>
-        <div className="flex justify-end 2xl:w-10/12 m-auto mb-3"> <button className="bg-background-color text-white px-10 py-4 rounded-md hover:bg-gc transition-colors duration-200">Create Test</button></div>
+      <div className="flex justify-end 2xl:w-10/12 m-auto mb-3">
+        {" "}
+        <button className="bg-background-color text-white px-10 py-4 rounded-md hover:bg-gc transition-colors duration-200">
+          Create Test
+        </button>
+      </div>
       <div className="grid 2xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-10 2xl:w-10/12 m-auto ">
         <div className="border-2 rounded-md border-color">
           <div className="px-5 pt-5 pb-3 w-full border-b-2 border-background-color mb-5">
@@ -17,7 +22,11 @@ export default function AllTest() {
               <div className="bg-sub-bg p-2 rounded-md text-2">Publish now</div>{" "}
               <div className="mt-4">
                 {/* <img src="Vector (17).png" alt="" /> */}
-                <Dropdown title="&#9679; &#9679; &#9679;" noCaret className="bg-gray-100 dropdown2">
+                <Dropdown
+                  title="&#9679; &#9679; &#9679;"
+                  noCaret
+                  className="bg-gray-100 dropdown2"
+                >
                   <Dropdown.Item>New File</Dropdown.Item>
                   <Dropdown.Item>New File with Current Profile</Dropdown.Item>
                   <Dropdown.Item>Download As...</Dropdown.Item>
@@ -35,19 +44,19 @@ export default function AllTest() {
           <div className="px-5 pt-0 pb-3">
             <div className="flex gap-16">
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="question-filled 1.png" alt="" />{" "}
+                <img src="question-filled-1.png" alt="" />{" "}
                 <span> 20 Questions</span>
               </div>
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="ion_time.png" alt="" /> <span> 120 Mins</span>
+                <img src="ion-time.png" alt="" /> <span> 120 Mins</span>
               </div>
             </div>
             <div className="flex gap-12 mt-8">
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="subscribe 1.png" alt="" /> <span>20 Subscribers</span>
+                <img src="subscribe-1.png" alt="" /> <span>20 Subscribers</span>
               </div>
               <div className="flex items-center gap-3 pl-1 text-nowrap">
-                <img src="lets-icons_date-range-fill.png" alt="" />
+                <img src="lets-icons-date-range-fill.png" alt="" />
                 <span>24th Sep 2024</span>
               </div>
             </div>
@@ -62,10 +71,16 @@ export default function AllTest() {
         <div className="border-2 rounded-md border-background-color">
           <div className="px-5 pt-5 pb-3 w-full border-b-2 border-background-color mb-5">
             <div className="flex justify-between items-center">
-              <div className="bg-sub-bg p-2 rounded-md text-2 text-nowrap">Published</div>
+              <div className="bg-sub-bg p-2 rounded-md text-2 text-nowrap">
+                Published
+              </div>
               <div className="mt-4">
                 {/* <img src="Vector (17).png" alt="" /> */}
-                <Dropdown title="&#9679; &#9679; &#9679;" noCaret className="bg-gray-100 dropdown2">
+                <Dropdown
+                  title="&#9679; &#9679; &#9679;"
+                  noCaret
+                  className="bg-gray-100 dropdown2"
+                >
                   <Dropdown.Item>New File</Dropdown.Item>
                   <Dropdown.Item>New File with Current Profile</Dropdown.Item>
                   <Dropdown.Item>Download As...</Dropdown.Item>
@@ -83,19 +98,19 @@ export default function AllTest() {
           <div className="px-5 pt-0 pb-3">
             <div className="flex gap-16">
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="question-filled 1.png" alt="" />
+                <img src="question-filled-1.png" alt="" />
                 <span> 20 Questions</span>
               </div>
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="ion_time.png" alt="" /> <span> 120 Mins</span>
+                <img src="ion-time.png" alt="" /> <span> 120 Mins</span>
               </div>
             </div>
             <div className="flex gap-12 mt-8">
               <div className="flex items-center gap-3">
-                <img src="subscribe 1.png" alt="" /> <span>20 Subscribers</span>
+                <img src="subscribe-1.png" alt="" /> <span>20 Subscribers</span>
               </div>
               <div className="flex items-center gap-3 pl-1 text-nowrap">
-                <img src="lets-icons_date-range-fill.png" alt="" />
+                <img src="lets-icons-date-range-fill.png" alt="" />
                 <span>24th Sep 2024</span>
               </div>
             </div>
@@ -112,10 +127,16 @@ export default function AllTest() {
         <div className="border-2 rounded-md border-color">
           <div className="px-5 pt-5 pb-3 w-full border-b-2 border-background-color mb-5">
             <div className="flex justify-between items-center">
-              <div className="bg-sub-bg p-2 rounded-md text-2 text-nowrap">Scheduled</div>
+              <div className="bg-sub-bg p-2 rounded-md text-2 text-nowrap">
+                Scheduled
+              </div>
               <div className="mt-4">
                 {/* <img src="Vector (17).png" alt="" /> */}
-                <Dropdown title="&#9679; &#9679; &#9679;" noCaret className="bg-gray-100 dropdown2">
+                <Dropdown
+                  title="&#9679; &#9679; &#9679;"
+                  noCaret
+                  className="bg-gray-100 dropdown2"
+                >
                   <Dropdown.Item>New File</Dropdown.Item>
                   <Dropdown.Item>New File with Current Profile</Dropdown.Item>
                   <Dropdown.Item>Download As...</Dropdown.Item>
@@ -133,19 +154,19 @@ export default function AllTest() {
           <div className="px-5 pt-0 pb-3">
             <div className="flex gap-16">
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="question-filled 1.png" alt="" />
+                <img src="question-filled-1.png" alt="" />
                 <span> 20 Questions</span>
               </div>
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="ion_time.png" alt="" /> <span> 120 Mins</span>
+                <img src="ion-time.png" alt="" /> <span> 120 Mins</span>
               </div>
             </div>
             <div className="flex gap-12 mt-8">
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="subscribe 1.png" alt="" /> <span>20 Subscribers</span>
+                <img src="subscribe-1.png" alt="" /> <span>20 Subscribers</span>
               </div>
               <div className="flex items-center gap-3 pl-1 text-nowrap">
-                <img src="lets-icons_date-range-fill.png" alt="" />
+                <img src="lets-icons-date-range-fill.png" alt="" />
                 <span>24th Sep 2024</span>
               </div>
             </div>
@@ -163,7 +184,11 @@ export default function AllTest() {
               <div className="bg-sub-bg p-2 rounded-md text-2">Draft</div>
               <div className="mt-4">
                 {/* <img src="Vector (17).png" alt="" /> */}
-                <Dropdown title="&#9679; &#9679; &#9679;" noCaret className="bg-gray-100 dropdown2">
+                <Dropdown
+                  title="&#9679; &#9679; &#9679;"
+                  noCaret
+                  className="bg-gray-100 dropdown2"
+                >
                   <Dropdown.Item>New File</Dropdown.Item>
                   <Dropdown.Item>New File with Current Profile</Dropdown.Item>
                   <Dropdown.Item>Download As...</Dropdown.Item>
@@ -181,19 +206,19 @@ export default function AllTest() {
           <div className="px-5 pt-0 pb-3">
             <div className="flex gap-16">
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="question-filled 1.png" alt="" />
+                <img src="question-filled-1.png" alt="" />
                 <span> 20 Questions</span>
               </div>
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="ion_time.png" alt="" /> <span> 120 Mins</span>
+                <img src="ion-time.png" alt="" /> <span> 120 Mins</span>
               </div>
             </div>
             <div className="flex gap-12 mt-8">
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="subscribe 1.png" alt="" /> <span>20 Subscribers</span>
+                <img src="subscribe-1.png" alt="" /> <span>20 Subscribers</span>
               </div>
               <div className="flex items-center gap-3 pl-1 text-nowrap">
-                <img src="lets-icons_date-range-fill.png" alt="" />
+                <img src="lets-icons-date-range-fill.png" alt="" />
                 <span>24th Sep 2024</span>
               </div>
             </div>

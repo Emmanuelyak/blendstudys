@@ -1,5 +1,6 @@
+"use client"
 import React from "react";
-import AdminNav from "../adminNav";
+import AdminNav from "../admin-nav";
 import { Dropdown } from "rsuite";
 
 function CreateTest() {
@@ -31,7 +32,9 @@ function CreateTest() {
         <div className="w-11/12 grid 2xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 2xl:w-11/12 lg:w-10/12 lg:gap-20 md:gap-5 md:w-9/12 2xl:gap-32 m-auto">
           <div>
             <div className="mb-3">
-              <label htmlFor="" className="">Study Materials Attachment</label>
+              <label htmlFor="" className="">
+                Study Materials Attachment
+              </label>
               <Dropdown
                 className="dropdown w-full border border-0 rounded-md outline-none bg-gray-100 mt-2"
                 title="Select an option"
@@ -59,7 +62,9 @@ function CreateTest() {
             </div>
           </div>
           <div>
-            <label htmlFor="" className="mt-4">URL</label>
+            <label htmlFor="" className="mt-4">
+              URL
+            </label>
             <input
               type="text"
               className="w-full rounded-md p-3 outline-none bg-gray-100 mt-2"
@@ -68,15 +73,19 @@ function CreateTest() {
           </div>
         </div>
         <div className="w-11/12 2xl:w-11/12 m-auto mt-5">
-          <div className="grid 2xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
+          <div className="grid gap-5 pb-10 2xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 2xl:items-center md:items-center lg:items-center sm:grid-cols-1">
             <div>
-                <input type="date" name="" id="" placeholder="Shedule" />
+             <button className="flex gap-7 items-center text-lg py-2 px-4 2xl:py-3 lg:py-3 md:py-2 2xl:px-4 lg:px-4 md:px-5 bg-background-color border-2 rounded-md border-custom-teal text-white text-nowrap hover:bg-gc transition-colors duration-200"> Schedule <img src="vector-21.png" alt="calender" /></button>
             </div>
             <div>
-                <div className="flex justify-end">
-                    <button className="py-2 px-4 2xl:py-4 lg:py-4 md:py-2 2xl:px-10 lg:px-10 md:px-5 text-color border-2 rounded-md border-custom-teal bg-sub-bg text-nowrap hover:bg-cyan-50 transition-colors duration-200">Saved as Draft</button>
-                    <button className="py-2 px-4 2xl:py-4 lg:py-4 md:py-2 2xl:px-10 lg:px-10 md:px-5 bg-background-color border-2 rounded-md border-custom-teal text-white ml-6 text-nowrap hover:bg-gc transition-colors duration-200">Published</button>
-                </div>
+              <div className="flex justify-end">
+                <button className="py-2 px-4 2xl:py-4 lg:py-4 md:py-2 2xl:px-10 lg:px-10 md:px-5 text-color border-2 rounded-md border-custom-teal bg-sub-bg text-nowrap hover:bg-cyan-50 transition-colors duration-200">
+                  Saved as Draft
+                </button>
+                <button className="py-2 px-4 2xl:py-4 lg:py-4 md:py-2 2xl:px-10 lg:px-10 md:px-5 bg-background-color border-2 rounded-md border-custom-teal text-white ml-6 text-nowrap hover:bg-gc transition-colors duration-200">
+                  Published
+                </button>
+              </div>
             </div>
           </div>
         </div>

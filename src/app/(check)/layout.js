@@ -1,11 +1,11 @@
   const userNav = [
-    { image: "Vector (9).png", title: "Home" },
-    { image: "Vector (10).png", title: "Test Rooms" },
-    { image: "fluent_people-team-20-filled (1).png", title: "Subscribers" },
-    { image: "majesticons_analytics (1).png", title: "Analytics" },
-    { image: "majesticons_analytics.png", title: "Revenue" },
-    { image: "Vector (11).png", title: "Profile" },
-    { image: "weui_setting-filled.png", title: "Settings" },
+    { image: "vector-9.png", title: "Home" },
+    { image: "vector-10.png", title: "Test Rooms" },
+    { image: "fluent-people-team-20-filled-1.png", title: "Subscribers" },
+    { image: "majesticons-analytics-1.png", title: "Analytics" },
+    { image: "majesticons-analytics.png", title: "Revenue" },
+    { image: "vector-11.png", title: "Profile" },
+    { image: "weui-setting-filled.png", title: "Settings" },
   ];
 
 
@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
           <div className="hidden border bborder-gray-50 2xl:w-2/12 sm:w-2/12 md:block h-full">
             <nav className="2xl:flex 2xl:flex-col justify-center items-center mb-14 pt-5 relative text-center">
               <div className="2xl:w-40 md:w-20 mb-2 m-auto">
-                <img src="Ellipse 11.png" alt="img" width={"100%"} />
+                <img src="ellipse-11.png" alt="img" width={"100%"} />
               </div>
               <p className="2xl:text-xl md:text-md">Michelle Ajoma</p>
               <p className="2xl:text-sm md:text-2">Chemistry Teacher</p>
@@ -44,7 +44,7 @@ export default function RootLayout({ children }) {
                 ))}
                 <div className="flex 2xl:gap-3 md:gap-1 items-center md:mb-20 2xl:mt-48 md:mt-20 ">
                   <div className="2xl:w-7">
-                    <img src="Vector (18).png" alt="" width={"100%"} />
+                    <img src="vector-18.png" alt="" width={"100%"} />
                   </div>
                   <h6 className="2xl:text-md text-nowrap font-normal">Logout</h6>
                 </div>

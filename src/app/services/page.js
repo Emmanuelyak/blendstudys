@@ -1,8 +1,8 @@
-"use client"
+"use client";
 import React from "react";
 import { FaChevronUp, FaChevronDown } from "react-icons/fa6";
-import Navigation from "../Navigation/Navigation";
-import Footer from "../Footer/Footer";
+import Navigation from "../navigation/navigation";
+import Footer from "../footer/footer";
 import Button from "../Button/Button";
 
 function Services() {
@@ -27,7 +27,7 @@ function Services() {
               <div className="relative text-white font-bold bg-black w-16 h-16 rounded-xl flex items-center justify-center text-3xl">
                 1
               </div>
-              <div className="relative relative text-black font-bold bg-sub-bg w-16 h-16 rounded-xl flex items-center justify-center text-3xl">
+              <div className="relative text-black font-bold bg-sub-bg w-16 h-16 rounded-xl flex items-center justify-center text-3xl">
                 2
               </div>
               <div className="relative text-black font-bold bg-sub-bg w-16 h-16 rounded-xl flex items-center justify-center text-3xl">
@@ -63,7 +63,7 @@ function Services() {
           </div>
         </div>
         <div>
-          <img src="Rectangle 1750 (2).jpg" alt="" />
+          <img src="rectangle-17502.jpg" alt="" />
         </div>
       </div>
       <div className="mt-5 mb-10 w-3/4 m-auto">
@@ -106,13 +106,13 @@ function Services() {
           </p>
           <div className="flex gap-2 mt-10">
             <div className="flex gap-1 flex-col">
-              <img src="mdi_star-four-points-circle.png" alt="star" />
-              <img src="mdi_star-four-points-circle.png" alt="star" />
-              <img src="mdi_star-four-points-circle.png" alt="star" />
-              <img src="mdi_star-four-points-circle.png" alt="star" />
-              <img src="mdi_star-four-points-circle.png" alt="star" />
-              <img src="mdi_star-four-points-circle.png" alt="star" />
-              <img src="mdi_star-four-points-circle.png" alt="star" />
+              <img src="mdi-star-four-points-circle.png" alt="star" />
+              <img src="mdi-star-four-points-circle.png" alt="star" />
+              <img src="mdi-star-four-points-circle.png" alt="star" />
+              <img src="mdi-star-four-points-circle.png" alt="star" />
+              <img src="mdi-star-four-points-circle.png" alt="star" />
+              <img src="mdi-star-four-points-circle.png" alt="star" />
+              <img src="mdi-star-four-points-circle.png" alt="star" />
             </div>
             <div className="text-gray-700">
               <h1>Empower student success</h1>
@@ -126,8 +126,8 @@ function Services() {
           </div>
         </div>
         <div className="flex items-center w-6/12 m-auto">
-          <img src="Rectangle 1758.png" alt="" />
-          <img src="Rectangle 1757.png" alt="" />
+          <img src="rectangle-1758.png" alt="" />
+          <img src="rectangle-1757.png" alt="" />
         </div>
       </div>
 
@@ -161,26 +161,47 @@ function Services() {
           </div>
 
           <div className="bg-sub-bg flex gap-2 py-5 px-4 rounded-xl mb-4">
-          <div className="pt-1"><FaChevronDown /></div> <h1 className="text-xl font-semi-bold">What is the purpose of the platform</h1>
+            <div className="pt-1">
+              <FaChevronDown />
+            </div>{" "}
+            <h1 className="text-xl font-semi-bold">
+              What is the purpose of the platform
+            </h1>
           </div>
           <div className="bg-sub-bg flex gap-2 py-5 px-4 rounded-xl mb-4">
-          <div className="pt-1"><FaChevronDown /></div> <h1 className="text-xl font-semi-bold">How do I sign up for an account?</h1>
+            <div className="pt-1">
+              <FaChevronDown />
+            </div>{" "}
+            <h1 className="text-xl font-semi-bold">
+              How do I sign up for an account?
+            </h1>
           </div>
           <div className="bg-sub-bg flex gap-2 py-5 px-4 rounded-xl mb-20">
-          <div className="pt-1"><FaChevronDown /></div> <h1 className="text-xl font-semi-bold">How do I contact support?</h1>
+            <div className="pt-1">
+              <FaChevronDown />
+            </div>{" "}
+            <h1 className="text-xl font-semi-bold">
+              How do I contact support?
+            </h1>
           </div>
-
         </div>
       </div>
 
       <div className="w-7/12 grid grid-cols-2 bg-background-color text-white m-auto mt-20 rounded-xl">
-        <div><img src="Rectangle 1760.png" alt="" /></div>
+        <div>
+          <img src="rectangle-1760.png" alt="" />
+        </div>
         <div className="flex flex-col start items-center ml-2 ">
-          <h1 className="text-4.5x pt-12 font-bold pb-5">Get Monetized to <br /> teach online</h1>
-          <p className="mb-5">Choose to offer your test rooms for free or set <br/> subscription fees, allowing you to earn while you <br/> educate.</p>
-        <Button background="white" color="color" />
-          
-        {/* <Button background="main" color="color" text="Create a teacher profile for free"/> */}
+          <h1 className="text-4.5x pt-12 font-bold pb-5">
+            Get Monetized to <br /> teach online
+          </h1>
+          <p className="mb-5">
+            Choose to offer your test rooms for free or set <br /> subscription
+            fees, allowing you to earn while you <br /> educate.
+          </p>
+          <Button background="white" color="color" />
+
+          {/* <Button background="main" color="color" text="Create a teacher profile for free"/> */}
         </div>
       </div>
 

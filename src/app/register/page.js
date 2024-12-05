@@ -62,13 +62,13 @@ function Register() {
       <div className="lg:w-9/12 md:w-100 m-auto lg:bg-bg2 md:bg-bg2 sm:bg-bg2 2xl:h-ht-1 sm:h-ht-1 bg-no-repeat bg-cover mt-7">
         <div className="flex w-w-main justify-between  items-end m-auto">
           <div className="relative w-wh1 h-ht-1 mt-10 rounded-full">
-            <img className="w-wh1 h-ht-1" src="Ellipse 11.png" alt="pic" />
+            <img className="w-wh1 h-ht-1" src="ellipse-11.png" alt="pic" />
             <div className="absolute bottom-0 right-5">
-              <img className="" src="Group 43.png" alt="" />
+              <img className="" src="group-43.png" alt="" />
             </div>
           </div>
           <div className=" mb-5">
-            <img src="Group 43.png" alt="" />
+            <img src="group-43.png" alt="" />
           </div>
         </div>
       </div>

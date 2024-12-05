@@ -44,7 +44,7 @@ module.exports = {
   		},
   		backgroundImage: {
   			bg1: 'url("/pile-paperback-books-table.jpg")',
-  			bg2: 'url("/Container 88.png")',
+  			bg2: 'url("/container-88.png")',
   			backgroundOverlay: 'linear-gradient(#00A79E, transparent)'
   		},
   		backgroundColor: {
