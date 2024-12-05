@@ -1,10 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 body {
-  
   font-family: "Inter", Helvetica, sans-serif !important;
+}
+/* .rs-dropdown-toggle {
+  width: 100%;
+  text-align: left;
+  display: block;
+  margin: 0;
+} */
+.dropdown button{
+  display:block !important;
+  text-align: left;
+  color: rgb(176, 172, 172);
+  background-color: #f3f4f6;
+  /* color: red; */
+  width: 100%;
+}
+
+.display1{
+  display: none !important;
+}
+
+.dropdown-bg button{
+  background-color: #e5f6f5;
+  /* color: #06756f; */
+}
+.dropdown2 button{
+  background-color: #ffffff;
+}
+.dropdown2 ul {
+  background-color: #efefef;
+}
+
+.dropdown3 button{
+  color:#00a79f;
+  background-color: #e5f6f5;
+}
+.dropdown4 svg{
+  margin-left: 10px !important;
 }
