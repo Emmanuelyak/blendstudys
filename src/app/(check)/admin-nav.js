@@ -3,10 +3,10 @@ import React from "react";
 
 export default function AdminNav(props) {
   return (
-    <div className=" fixed top-0 w-full bg-transparent backdrop-blur-md filter 2xl:w-full 2xl:relative sm:fixed md:w-10/12 sm:w-8/12 md:fixed md:top-0 md:pt-3 md:pb-5 z-50">
-      <div className="bg-white m-auto rounded-xl 2xl:w-100 md:w-11/12 top-2.5 2xl:right-20 border py-3 border-gray-100 shadow-lg">
+    <div className=" fixed top-0 w-full bg-transparent backdrop-blur-md lg:relative filter 2xl:w-full 2xl:relative sm:fixed md:relative md:top-0 md:pt-3 md:pb-5 z-50">
+      <div className="bg-white m-auto rounded-xl  2xl:w-100 md:w-11/12 top-2.5 2xl:right-20 border py-3 border-gray-100 shadow-lg">
         <div className="flex items-center justify-between 2xl:justify-between md:justify-start 2xl:w-full md:w-full">
-          <div className="w-20 lg:w-52 2xl:w-52 j 2xl:flex md:w-28 sm:w-10 md:flex md:justify-start 2xl:ml-10">
+          <div className="w-20 md:w-32 lg:w-52 2xl:w-52 2xl:flex md:flex md:justify-start 2xl:ml-10">
             <Link href="/">
               <img src="blend-studylogo.svg" alt="logo"  className="w-full"/>
             </Link>

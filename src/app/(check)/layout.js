@@ -42,7 +42,13 @@ export default function RootLayout({ children }) {
                     </h6>
                   </div>
                 ))}
-                <div className="flex 2xl:gap-3 md:gap-1 items-center md:mb-20 2xl:mt-48 md:mt-20 ">
+                {/* <div className="flex 2xl:gap-3 md:gap-1 items-center md:mb-20 2xl:mt-48 md:mt-20 ">
+                  <div className="2xl:w-7">
+                    <img src="vector-18.png" alt="" width={"100%"} />
+                  </div>
+                  <h6 className="2xl:text-md text-nowrap font-normal">Logout</h6>
+                </div> */}
+                <div className="flex 2xl:gap-3 md:gap-1 items-center 2xl:mt-48 fixed bottom-20 ">
                   <div className="2xl:w-7">
                     <img src="vector-18.png" alt="" width={"100%"} />
                   </div>

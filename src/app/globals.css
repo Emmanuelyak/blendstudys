@@ -30,10 +30,17 @@ body {
   /* color: #06756f; */
 }
 .dropdown2 button{
-  background-color: #ffffff;
+  background-color: transparent;
 }
-.dropdown2 ul {
+.dropdown5 ul, .dropdown2 ul, .dropdown22 ul {
+  margin-left: -190px;
+}
+.dropdown22 button{
+  background-color: #ffff;
+}
+.dropdown2 ul, .dropdown22 ul {
   background-color: #efefef;
+  
 }
 
 .dropdown3 button{

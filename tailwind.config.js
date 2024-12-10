@@ -14,6 +14,7 @@ module.exports = {
   			color: '#00A79E',
   			main: '#fffff',
   			'sub-bg': '#e5f6f5',
+			"inactive": "#f7e6e6",
   			},
   		fontFamily: {
   			inter: ["Inter", "tahoma"]
@@ -23,7 +24,8 @@ module.exports = {
   			'custom-left': '0px 0 0 2px'
   		},
   		borderColor: {
-  			'custom-teal': '#00A79E'
+  			'custom-teal': '#00A79E',
+			'custom-2' : '#ffc87b'
   		},
   		height: {
   			'99': '420px',
@@ -31,6 +33,7 @@ module.exports = {
   			'120': '51rem',
   			'ht-1': '200px',
 			"ht-2": "230px",
+			"ht-3": "580px",
   		},
   		width: {
   			'100': '95%',
@@ -40,6 +43,7 @@ module.exports = {
   		},
   		fontSize: {
   			'2': '11px',
+			"3": "14px",
   			'4.5x': '42px'
   		},
   		backgroundImage: {
@@ -49,7 +53,8 @@ module.exports = {
   		},
   		backgroundColor: {
   			'sub-bg1': '#e5f6f5',
-			"gc": "#06756f"
+			"gc": "#06756f",
+			"sub-bg-2": "#fff5e7",
 
   		},
   		boxShadow: {

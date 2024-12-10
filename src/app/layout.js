@@ -1,5 +1,6 @@
 import "./globals.css";
 import 'rsuite/dist/rsuite.min.css';
+import 'simplebar-react/dist/simplebar.min.css';
 
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
