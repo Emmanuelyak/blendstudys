@@ -57,7 +57,6 @@ export default function AllTest() {
             <div className="flex justify-between items-center">
               <div className="bg-sub-bg p-2 rounded-md text-2">Active</div>{" "}
               <div className="mt-4">
-                {/* <img src="Vector (17).png" alt="" /> */}
                 <Dropdown
                   title="&#9679; &#9679; &#9679;"
                   noCaret

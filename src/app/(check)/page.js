@@ -92,7 +92,7 @@ function page() {
                 <div className="grid grid-cols-2 gap-4  mb-5">
                   <div className=" flex items-start 2xl:gap-3 md:gap-1 ">
                     <div className="2xl:mt-1 md:mt-0">
-                      <img src="Vector (13).png" alt="" />
+                      <img src="Vector-13.png" alt="" />
                     </div>
                     <div>
                       <p className="2xl:text-lg md:text-2 text-nowrap">
@@ -103,7 +103,7 @@ function page() {
                   </div>
                   <div className="flex 2xl:gap-3 md:gap-1 ">
                     <div className="2xl:mt-1 md:mt-0">
-                      <img src="Vector (16).png" alt="" />
+                      <img src="Vector-16.png" alt="" />
                     </div>
                     <div>
                       <p className="2xl:text-lg text-nowrap md:text-2">
@@ -117,7 +117,7 @@ function page() {
                 <div className="grid grid-cols-2 mb-5">
                   <div className="flex 2xl:gap-3 md:gap-1">
                     <div className="2xl:mt-1 md:mt-0">
-                      <img src="Vector (14).png" alt="" />
+                      <img src="Vector-14.png" alt="" />
                     </div>
                     <div>
                       <p className="2xl:text-lg text-nowrap md:text-2">
@@ -128,7 +128,7 @@ function page() {
                   </div>
                   <div className="flex 2xl:gap-3 md:gap-1 md:ml-2">
                     <div className="2xl:mt-1 md:mt-0">
-                      <img src="Vector (15).png" alt="" />
+                      <img src="Vector-15.png" alt="" />
                     </div>
                     <div>
                       <p className="2xl:text-lg md:text-2">Active Now</p>

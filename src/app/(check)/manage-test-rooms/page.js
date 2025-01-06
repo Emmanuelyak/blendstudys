@@ -61,7 +61,7 @@ export default function ManageTestRooms() {
           </div>
         </div>
         <div className="mt-5 rounded border-collapse ">
-          <table className="w-full m-auto border-collapse border-gray-400 ">
+          <table className="w-full m-auto border-collapse border-gray-400 overflow-x-auto lg:overflow-hidden">
             <thead>
               <tr className="bg-gray-100">
                 <td className="w-[18%] px-5 font-semibold md:text-sm 2xl:text-lg py-4 text-nowrap border-gray-400  border">
