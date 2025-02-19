@@ -76,7 +76,7 @@ function CreateTestRoom() {
           </Container>
         </div>
         <div className="flex justify-end mt-7">
-          <button className="text-white bg-background-color border-transparent rounded-md font-light text-xl py-3 px-10">
+          <button className="text-white bg-background-color border-transparent rounded-md font-light text-sm md:text-xl py-3 px-6 md:px-10">
             Save
           </button>
         </div>

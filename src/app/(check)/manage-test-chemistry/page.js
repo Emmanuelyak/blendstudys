@@ -10,7 +10,7 @@ function page() {
         <AdminNav title={"Manage Test - Chemistry"} />
       </div>
 
-      <div className="w-11/12 md:w-11/12 lg:w-100 2xl:w-100 m-auto mt-32 2xl:pt-10 ">
+      <div className="w-11/12 md:w-11/12 lg:w-100 2xl:w-100 m-auto mt-5 2xl:pt-10 ">
         <div className="flex justify-between">
           <button className="bg-background-color text-white py-4 px-4 2xl:py-4 flex items-end gap-4 2xl:px-10 text-base 2xl:text-lg rounded">
             <span className="text-sm 2xl:text-2xl">+</span>Add Resources

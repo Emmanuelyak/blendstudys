@@ -2,12 +2,15 @@
 import { Container, Dropdown } from "rsuite";
 import React from "react";
 import { Modal } from "rsuite";
+import { useRouter } from "next/navigation";
 function Register() {
   const [open, setOpen] = React.useState(false);
   const [size, setSize] = React.useState();
+  const router = useRouter();
   const handleOpen = (value) => {
     setSize(value);
     setOpen(true);
+    router.push("/dashboard");
   };
   const handleClose = () => setOpen(false);
   return (

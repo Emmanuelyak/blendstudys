@@ -42,6 +42,7 @@ module.exports = {
   			"wh1": '200px'
   		},
   		fontSize: {
+			"1.1": "10px",
   			'2': '11px',
 			"3": "14px",
   			'4.5x': '42px'

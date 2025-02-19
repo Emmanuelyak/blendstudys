@@ -10,9 +10,10 @@ export default function page() {
       <div className="h-1/4 sticky top-0 z-50">
         <AdminNav title={"Test Takers - Chemistry"} />
       </div>
-      <div className="w-100 m-auto">
+      <div className="w-100 m-auto md:mt-5 mt-20">
         <div className="flex flex-col md:flex-col lg:flex-col xl:flex 2xl:flex xl:flex-row 2xl:flex-row justify-between">
         <div className="lg:order-1 md:order-1 2xl:-order-none flex gap-3 mb-4 md:mb-4 lg:mb-2">
+          <div className="grid grid-cols-2 gap-3 md:gap-4 lg:gap-4 xl:gap-4 2xl:gap-4">
           <div className="bg-sub-bg-2 rounded p-3 border border-custom-2">
             <div className="flex items-center">
               <div className="w-8">
@@ -49,6 +50,7 @@ export default function page() {
             </div>
             <div>Overall Performance</div>
           </div>
+          </div>
         </div>
         <div className="lg:order-2 md:order-2 2xl:-order-none justify-end flex flex-wrap gap-1">
             <div className="bg-gray-200 flex items-center h-14 rounded-md">
@@ -83,7 +85,7 @@ export default function page() {
           </div>
         </div>
 
-        <div className="mt-4">
+        <div className="mt-4  md:block hidden">
         <table className="w-full">
             <thead>
                 <tr className="bg-gray-100 rounded-t">
@@ -237,20 +239,103 @@ export default function page() {
         </table>
         </div>
 
+       <div className="md:hidden w-full mt-3">
+                 <table className="w-full">
+                
+                   <thead className="w-full">
+                     <tr>
+                       <th className="text-black py-1 px-3 border flex items-center justify-between border-b-0 md:text-2 2xl:text-base border-gray-400 bg-gray-100">
+                         <div className="text-2">Action</div>
+                       <Dropdown title={<FiMoreVertical/>}  noCaret className="dropdown2 dropdown5 mx-2" >
+                           <Dropdown.Item>New File</Dropdown.Item>
+                           <Dropdown.Item>New File with Current Profile</Dropdown.Item>
+                           <Dropdown.Item>Download As...</Dropdown.Item>
+                           <Dropdown.Item>Export PDF</Dropdown.Item>
+                           <Dropdown.Item>Export HTML</Dropdown.Item>
+                           <Dropdown.Item>Settings</Dropdown.Item>
+                           <Dropdown.Item>About</Dropdown.Item>
+                         </Dropdown>
+                         </th>
+                     </tr>
+                   </thead>
+                   
+                   <thead>
+                     <tr>
+                       <th className="text-black p-3 border text-2 flex items-start gap-28  border-gray-400 bg-gray-100">
+                       <span className="w-[5%]"> <img src="create-11.png" alt="" /></span>
+                       NAME</th>
+                     </tr>
+                   </thead>
+                   <tbody>
+                     <tr>
+                       <td className="p-3 border text-center border-gray-400 text-1.1">Chinyere Adaku</td>
+                     </tr>
+                   </tbody>
+                   <thead>
+                     <tr>
+                       <th className="text-black p-3 border text-2 border-gray-400 bg-gray-100">
+                       QUESTION ATTEMPTED</th>
+                     </tr>
+                   </thead>
+                   <tbody>
+                     <tr>
+                     <td className="border text-1.1 p-3 text-nowrap text-center border-gray-400">
+                         20
+                       </td>
+                     </tr>
+                   </tbody>
+                   <thead>
+                     <tr>
+                       <th className="text-black p-3 border text-2 border-gray-400 bg-gray-100">
+                       SCORE</th>
+                     </tr>
+                   </thead>
+                   <tbody>
+                     <tr>
+                     <td className="text-black p-3 border text-1.1 text-center text-nowrap border-gray-400">
+                         15/30
+                       </td>
+                     </tr>
+                   </tbody>
+                   <thead>
+                     <tr>
+                       <th className="text-black p-3 border text-2 border-gray-400 bg-gray-100">
+                       PERFORMANCE</th>
+                     </tr>
+                   </thead>
+                   <tbody>
+                     <tr className="">
+                     <td className="w-[18%] p-3 border border-gray-400"><img src="group-2376591.png" alt="" /></td>
+                     </tr>
+                   </tbody>
+                   <thead>
+                     <tr>
+                       <th className="text-black p-3 border text-2 border-gray-400 bg-gray-100">
+                       STATUS</th>
+                     </tr>
+                   </thead>
+                   <tbody>
+                     <tr>
+                     <td className="p-3 border border-gray-400"><div className="text-background-color text-center py-2 px-4  text-1.1 bg-sub-bg rounded-3xl">Active</div></td>
+                     </tr>
+                   </tbody>
+                 </table>
+               </div>
+
       </div>
         <div className="w-100 flex items-center pb-2 pt-10  m-auto gap-6">
-      <div className="2xl:ml-0 lg:ml-0 md:ml-0 sm:ml-10 text-sm text-nowrap 2xl:text-lg lg:text-lg w-4/12">
+      <div className="2xl:ml-0 lg:ml-0 md:ml-0 sm:ml-10 text-1.1 text-nowrap 2xl:text-lg lg:text-lg w-4/12">
           Show <span className="font-bold">1</span> to
           <span className="font-bold">10</span> of
           <span className="font-bold">20</span> results
         </div>
 
-        <div className="flex-1">
+        <div className="flex-1 text-1.1 md:text-lg ml-2 md:ml-0">
 
-        <div className="flex items-center">
+        <div className="flex items-center ">
           &lt;
-          <div className="grid grid-cols-7 items-center gap-3 mx-2">
-            <div className="bg-background-color flex justify-center items-center px-3 rounded-md py-2 text-white">
+          <div className="grid grid-cols-7 items-center gap-0 md:gap-3 md:mx-2">
+            <div className="bg-background-color flex justify-center items-center  md:px-3 rounded-md py-2 text-white">
               1
             </div>
             <div>2</div>

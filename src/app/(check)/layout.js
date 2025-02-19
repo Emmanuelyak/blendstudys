@@ -1,15 +1,6 @@
-import SideLayer from "../../../sideLayer";
-import GlobalProvider from "../globalContext/globalContext";
-
-const userNav = [
-  { image: "vector-9.png", title: "Home" },
-  { image: "vector-10.png", title: "Test Rooms" },
-  { image: "fluent-people-team-20-filled-1.png", title: "Subscribers" },
-  { image: "majesticons-analytics-1.png", title: "Analytics" },
-  { image: "majesticons-analytics.png", title: "Revenue" },
-  { image: "vector-11.png", title: "Profile" },
-  { image: "weui-setting-filled.png", title: "Settings" },
-];
+import SideLayer from "@/app/side-layer";
+// import GlobalProvider from "../globalContext/globalContext";
+import GlobalProvider from "@/app/globalContext/globalContext";
 
 export const metadata = {
   title: "Your App Name",
@@ -21,9 +12,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <GlobalProvider>
-        <div className="flex h-screen w-full">
-          <SideLayer />
-          {/* <div className="hidden border bborder-gray-50 2xl:w-2/12 sm:w-2/12 md:block h-full">
+          <div className="flex h-screen w-full ">
+            <SideLayer />
+            {/* <div className="hidden border bborder-gray-50 2xl:w-2/12 sm:w-2/12 md:block h-full">
             <nav className="2xl:flex 2xl:flex-col justify-center items-center mb-14 pt-5 relative text-center">
               <div className="2xl:w-40 md:w-20 mb-2 m-auto">
                 <img src="ellipse-11.png" alt="img" width={"100%"} />
@@ -57,18 +48,18 @@ export default function RootLayout({ children }) {
             </div>
           </div> */}
 
-          {/* Main Content */}
-          <main className="w-full 2xl:flex-1 2xl:overflow-y-auto lg:flex-1 lg:overflow-y-auto md:overflow-y-auto md:flex-1">
-            {/* Header */}
-            {/* <header className="h-16 bg-white border-b border-gray-200 flex items-center px-6">
+            {/* Main Content */}
+            <main className="w-full 2xl:flex-1 2xl:overflow-y-auto lg:flex-1 overflow-y-auto lg:overflow-y-auto md:overflow-y-auto md:flex-1">
+              {/* Header */}
+              {/* <header className="h-16 bg-white border-b border-gray-200 flex items-center px-6">
               <h1 className="text-xl font-semibold text-gray-800">Dashboard</h1>
   
 
             {/* Page Content */}
 
-            <div className="relative">{children}</div>
-          </main>
-        </div>
+              <div className="relative">{children}</div>
+            </main>
+          </div>
         </GlobalProvider>
       </body>
     </html>

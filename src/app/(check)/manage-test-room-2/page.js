@@ -3,7 +3,7 @@ import React from "react";
 import AdminNav from "../admin-nav";
 import { Dropdown } from "rsuite";
 
-export default function AllTest() {
+export default function ManageTestRooms(props) {
   return (
     <div className="w-full relative 2xl:mb-0 lg:mb-0 md:mb-0 sm:mb-32">
       <div className="h-1/4">
@@ -34,7 +34,7 @@ export default function AllTest() {
               </button>
             </div>
             <div>
-              <button className="py-4 px-5 bg-gray-200 rounded-md">
+              <button className="py-4 px-5 bg-gray-200 rounded-md" onClick={props.onClick}>
                 {" "}
                 <div className="w-5">
                   <img src="layout-11.png" alt="layout" width={"100%"} />
@@ -97,7 +97,7 @@ export default function AllTest() {
             </div>
             <div className="mt-12">
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="fluent_people-team-20-filled (2).png" alt="" />
+                <img src="fluent-people-team-20-filled-1.png" alt="" />
                 <span>39 Test Takers</span>
               </div>
             </div>
@@ -151,7 +151,7 @@ export default function AllTest() {
             </div>
             <div className="mt-12">
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="fluent_people-team-20-filled (2).png" alt="" />
+                <img src="fluent-people-team-20-filled-1.png" alt="" />
                 <span>39 Test Takers</span>
               </div>
             </div>
@@ -207,7 +207,7 @@ export default function AllTest() {
             </div>
             <div className="mt-12">
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="fluent_people-team-20-filled (2).png" alt="" />
+                <img src="fluent-people-team-20-filled-1.png" alt="" />
                 <span>39 Test Takers</span>
               </div>
             </div>
@@ -259,7 +259,7 @@ export default function AllTest() {
             </div>
             <div className="mt-12">
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="fluent_people-team-20-filled (2).png" alt="" />
+                <img src="fluent-people-team-20-filled-1.png" alt="" />
                 <span>39 Test Takers</span>
               </div>
             </div>

@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import AdminNav from "./admin-nav";
+import 'rsuite/dist/rsuite.min.css';
 
 function page() {
   return (

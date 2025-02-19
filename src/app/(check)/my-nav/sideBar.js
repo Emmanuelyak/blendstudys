@@ -4,13 +4,14 @@ import React, { useEffect } from 'react'
 import { MoreVertical, ChevronLast, ChevronFirst } from "lucide-react"
 import { useContext, createContext, useState } from "react"
 import {useMediaQuery} from "react-responsive"
+import Link from 'next/link'
 
 const SidebarContext = createContext()
 
 export default function Sidebar({ children }) {
   const [expanded, setExpanded] = useState(true)
   const smallScreen = useMediaQuery({
-    query:"(max-width: 530px)"
+    query:"(max-width: 3px)"
   });
 
   useEffect(() => {
@@ -63,18 +64,18 @@ export default function Sidebar({ children }) {
        
 
         <SidebarContext.Provider value={{ expanded }}>
-          <ul className="flex-1 px-3">{children}</ul>
+          <ul className="flex-1 px-2 md:px-3">{children}</ul>
         </SidebarContext.Provider>
 
         <div className=" flex p-3 mb-10 ml-3">
-        <div className="w-7 md:w-7">
+        <div className="w-4 md:w-6">
                     <img src="vector-18.png" alt="" width={"100%"} />
                   </div>
          
           <div
             className={`
               flex justify-between items-center
-              overflow-hidden transition-all ${expanded ? "w-52 ml-3 " : "w-0"}
+              overflow-hidden transition-all ${expanded ? "w-52 ml-3 " : "w-0"} mb-12  md:mb-1
           `}
           >
             <div className="leading-4 text-base">
@@ -88,15 +89,16 @@ export default function Sidebar({ children }) {
   )
 }
 
-export function SidebarItem({onClick, icon, text, active, alert, index}) {
+export function SidebarItem({onClick, icon, text, active, alert, index, navigation}) {
   const { expanded } = useContext(SidebarContext)
+  console.log(navigation)
   
   return (
     <div className={`${index === 0 ? "mt-10 lg:mt-0": "mt-0"}`}>
-
+      <Link href={navigation} className='no-underline hover:no-underline'>
     <li onClick={onClick}
       className={`
-        relative flex  py-2 px-3 my-1
+        relative flex py-2 px-3 md:my-1
         font-medium rounded-md cursor-pointer
         transition-colors group
         ${
@@ -106,11 +108,11 @@ export function SidebarItem({onClick, icon, text, active, alert, index}) {
         }
     `}
     >
-      <div className=' w-7 md:w-8' >
+      <div className=' w-4 md:w-6' >
       <img src={icon} alt="" width={"100%"} />
       </div>
       <div
-        className={`overflow-hidden transition-all pt-1 ${
+        className={`overflow-hidden transition-all text-nowrap pt-1 ${
           expanded ? "w-52 ml-3 mb-4 text-base" : "w-0"
         }`}
       >
@@ -137,6 +139,7 @@ export function SidebarItem({onClick, icon, text, active, alert, index}) {
         </div>
       )}
     </li>
+      </Link>
     </div>
   )
 }

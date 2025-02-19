@@ -1,5 +1,5 @@
-import GlobalProvider from "../../globalContext/globalContext";
-import SideLayer from "../../../../sideLayer";
+import GlobalProvider from "@/app/globalContext/globalContext";
+import SideLayer from "@/app/side-layer";
 
 // const userNav = [
 //   { image: "vector-9.png", title: "Home" },
