@@ -1,6 +1,6 @@
 "use client";
 import { ChevronDown, ChevronUp } from "lucide-react";
-import AdminNav from "../../../components/admin-nav";
+import AdminNav from "../admin-nav";
 import { useState } from "react";
 
 function Faqs() {

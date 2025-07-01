@@ -1,6 +1,7 @@
+"use client"
 import React from 'react'
 
-function Reject() {
+export default function Reject() {
   return (
    
     <div className="fixed inset-0 bg-sub-bg1 flex items-center justify-center p-4">
@@ -16,7 +17,7 @@ function Reject() {
         </h2>
 
         <p className="text-gray-600 ">
-        We’re sorry, but your profile has been rejected. Your uploaded ID was not clear enough. Please provide a clearer and more legible photo of your identification document and resubmit
+        We&apos;re sorry, but your profile has been rejected. Your uploaded ID was not clear enough. Please provide a clearer and more legible photo of your identification document and resubmit
         </p>
         
         <div className="flex justify-center items-center space-y-3 pt-10">
@@ -34,4 +35,3 @@ function Reject() {
   )
 }
 
-export default Reject

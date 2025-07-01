@@ -1,9 +1,9 @@
 "use client";
 import React, { useState } from "react";
-import AdminNav from "@/components/admin-nav";
+import AdminNav from "@/app/(check)/admin-nav";
 import { ChevronRight, ChevronDown } from "lucide-react";
 import { Dropdown, Button, ButtonToolbar } from "rsuite";
-import { FeedbackModal } from "@/components/feedback/feedback-modal";
+import { FeedbackModal } from "@/app/feedback/feedback-modal";
 import Link from "next/link";
 import Image from "next/image";
 

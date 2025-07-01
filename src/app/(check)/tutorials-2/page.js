@@ -1,5 +1,5 @@
 import Image from "next/image";
-import AdminNav from "../../../components/admin-nav";
+import AdminNav from "../admin-nav";
 
 function Tutorial2() {
   return (

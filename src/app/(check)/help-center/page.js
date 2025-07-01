@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import AdminNav from "@/components/admin-nav";
+import AdminNav from "@/app/(check)/admin-nav";
 import { ChevronDown, ChevronRight } from "lucide-react";
 import { Dropdown, Button, ButtonToolbar } from "rsuite";
 import Link from "next/link";

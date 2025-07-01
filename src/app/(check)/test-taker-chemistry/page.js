@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import AdminNav from "../../../components/admin-nav";
+import AdminNav from "../admin-nav";
 import { FiMoreVertical } from "react-icons/fi";
 import { Dropdown } from "rsuite";
 import Image from "next/image";

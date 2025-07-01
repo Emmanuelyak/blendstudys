@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import AdminNav from "../../../components/admin-nav";
+import AdminNav from "../admin-nav";
 import { Dropdown } from "rsuite";
 import { IoIosEye } from "react-icons/io";
 import { MdOutlineCheckBox } from "react-icons/md";

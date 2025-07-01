@@ -1,5 +1,5 @@
 import React from "react";
-import AdminNav from "../../../components/admin-nav";
+import AdminNav from "../admin-nav";
 
 function TestRoomBrainRoom() {
   return (

@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import AdminNav from "@/components/admin-nav";
+import AdminNav from "@/app/(check)/admin-nav";
 import { ChevronRight } from "lucide-react";
 import { Toggle } from "rsuite";
 // import "@/app/(check)/notification-manager/style/style.css";

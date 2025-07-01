@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import AdminNav from "../../../components/admin-nav";
+import AdminNav from "../admin-nav";
 import { Container, Dropdown } from "rsuite";
 
 function SupportTicketSystem() {
