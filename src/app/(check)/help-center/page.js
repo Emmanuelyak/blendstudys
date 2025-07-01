@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import AdminNav from "@/app/(check)/admin-nav";
+import AdminNav from "@/components/admin-nav";
 import { ChevronDown, ChevronRight } from "lucide-react";
 import { Dropdown, Button, ButtonToolbar } from "rsuite";
 import Link from "next/link";
@@ -11,7 +11,7 @@ function Faq() {
   const [tutorials, setTutorials] = useState(false);
   const [userGuide, setUserGuide] = useState(false);
   const [ticketSupportSystem, setUserTicketSupportSyster] = useState(false);
-//   const [notificationManager, setNotificationManager] = useState(false);
+  //   const [notificationManager, setNotificationManager] = useState(false);
 
   const toggleAction = (a, b) => {
     b(!a);
@@ -60,19 +60,20 @@ function Faq() {
           <div>
             <div
               className="flex justify-between items-center "
-              onClick={() =>
-                toggleAction(faq, setFaq)
-              }
+              onClick={() => toggleAction(faq, setFaq)}
             >
               <div className="flex items-center gap-3">
-                <Link href="/faqs" className="no-underline hover:no-underline hover:text-black text-black">
-                <div>
-                  <h4 className="text-nowrap text-sm md:text-lg">FAQs</h4>
-                </div>
+                <Link
+                  href="/faqs"
+                  className="no-underline hover:no-underline hover:text-black text-black"
+                >
+                  <div>
+                    <h4 className="text-nowrap text-sm md:text-lg">FAQs</h4>
+                  </div>
                 </Link>
               </div>
               <div>
-               <ChevronRight />
+                <ChevronRight />
               </div>
             </div>
             {/* {faq && (
@@ -89,32 +90,35 @@ function Faq() {
           <div>
             <div className="flex justify-between items-center">
               <div className="flex items-center gap-3">
-              <Link href="/tutorials" className="no-underline hover:no-underline hover:text-black text-black">
-                <div>
-                  <h4 className="text-nowrap text-sm md:text-lg">Tutorials</h4>
-                </div>
+                <Link
+                  href="/tutorials"
+                  className="no-underline hover:no-underline hover:text-black text-black"
+                >
+                  <div>
+                    <h4 className="text-nowrap text-sm md:text-lg">
+                      Tutorials
+                    </h4>
+                  </div>
                 </Link>
               </div>
               <div>
-               <ChevronRight />
+                <ChevronRight />
               </div>
             </div>
           </div>
           <div>
             <div
               className="flex justify-between items-center "
-              onClick={() =>
-                toggleAction(userGuide, setUserGuide)
-              }
+              onClick={() => toggleAction(userGuide, setUserGuide)}
             >
               <div className="flex items-center gap-3">
                 <div>
-                  <h4 className="text-nowrap text-sm md:text-lg">User Guides</h4>
+                  <h4 className="text-nowrap text-sm md:text-lg">
+                    User Guides
+                  </h4>
                 </div>
               </div>
-              <div>
-              {!userGuide ? <ChevronRight /> : <ChevronDown />}
-              </div>
+              <div>{!userGuide ? <ChevronRight /> : <ChevronDown />}</div>
             </div>
             {userGuide && (
               <div className="bg-slate-300 top-14 w-full rounded h-52 ">
@@ -136,13 +140,13 @@ function Faq() {
             >
               <div className="flex items-center gap-3">
                 <div>
-                  <h4 className="text-nowrap text-sm md:text-lg">Suppport Ticket System</h4>
+                  <h4 className="text-nowrap text-sm md:text-lg">
+                    Suppport Ticket System
+                  </h4>
                 </div>
               </div>
               <div>
                 {!ticketSupportSystem ? <ChevronRight /> : <ChevronDown />}
-                
-            
               </div>
             </div>
             {ticketSupportSystem && (
@@ -156,8 +160,6 @@ function Faq() {
               </div>
             )}
           </div>
-         
-        
         </div>
       </div>
 

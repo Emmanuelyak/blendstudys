@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import AdminNav from "../admin-nav";
+import AdminNav from "../../../components/admin-nav";
 import { Container, Dropdown } from "rsuite";
 
 function SupportTicketSystem() {
@@ -15,7 +15,7 @@ function SupportTicketSystem() {
           <div className="flex flex-col gap-4">
             <Container className="gap-2">
               <label htmlFor="" className="">
-              Support Category
+                Support Category
               </label>
               <Dropdown
                 className="dropdown w-full border-0 rounded-md outline-none bg-gray-100"
@@ -25,7 +25,7 @@ function SupportTicketSystem() {
             </Container>
             <Container className="gap-2">
               <label htmlFor="" className="">
-              Support Purpose
+                Support Purpose
               </label>
               <Dropdown
                 className="dropdown w-full border-0 rounded-md outline-none bg-gray-100"
@@ -37,7 +37,7 @@ function SupportTicketSystem() {
           <div className="flex flex-col gap-4">
             <Container className="gap-2">
               <label htmlFor="" className="">
-              Priority
+                Priority
               </label>
               <Dropdown
                 className="dropdown w-full border-0 rounded-md outline-none bg-gray-100"
@@ -47,7 +47,7 @@ function SupportTicketSystem() {
             </Container>
             <Container className="gap-2">
               <label htmlFor="" className="">
-               Subject
+                Subject
               </label>
               <Dropdown
                 className="dropdown w-full border-0 rounded-md outline-none bg-gray-100"
@@ -59,15 +59,18 @@ function SupportTicketSystem() {
         </div>
         <div className="mt-3">
           <label htmlFor="">Description</label>
-            <textarea name="" id="" className="w-full h-36 bg-gray-100 rounded-lg outline-none md:px-10 px-2 md:py-10 py-2"></textarea>
-          </div>
-          <div className="flex justify-end mt-7">
-            <button className="text-white bg-background-color border-transparent rounded-md font-light text-sm md:text-xl py-3 px-6 md:px-10">
-              Submit
-            </button>
-          </div>
+          <textarea
+            name=""
+            id=""
+            className="w-full h-36 bg-gray-100 rounded-lg outline-none md:px-10 px-2 md:py-10 py-2"
+          ></textarea>
+        </div>
+        <div className="flex justify-end mt-7">
+          <button className="text-white bg-background-color border-transparent rounded-md font-light text-sm md:text-xl py-3 px-6 md:px-10">
+            Submit
+          </button>
+        </div>
       </div>
-      
     </div>
   );
 }

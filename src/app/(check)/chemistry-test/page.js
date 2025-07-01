@@ -1,5 +1,5 @@
 import React from "react";
-import AdminNav from "../admin-nav";
+import AdminNav from "../../../components/admin-nav";
 
 export default function ChemistryTest() {
   return (

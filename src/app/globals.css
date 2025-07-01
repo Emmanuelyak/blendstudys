@@ -42,6 +42,9 @@ body {
   background-color: #efefef;
   
 }
+.toggle1 span{
+    background-color: #00A79E !important;
+}
 
 .dropdown3 button{
   color:#00a79f;

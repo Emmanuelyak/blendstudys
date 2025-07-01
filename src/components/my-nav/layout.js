@@ -1,4 +1,4 @@
-import GlobalProvider from "@/app/globalContext/globalContext";
+import GlobalProvider from "@/components/globalContext/globalContext";
 import SideLayer from "@/app/side-layer";
 
 // const userNav = [

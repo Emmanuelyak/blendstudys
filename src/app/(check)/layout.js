@@ -1,6 +1,6 @@
 import SideLayer from "@/app/side-layer";
 // import GlobalProvider from "../globalContext/globalContext";
-import GlobalProvider from "@/app/globalContext/globalContext";
+import GlobalProvider from "@/components/globalContext/globalContext";
 
 export const metadata = {
   title: "Your App Name",

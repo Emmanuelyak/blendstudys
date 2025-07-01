@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import AdminNav from "../admin-nav";
+import AdminNav from "../../../components/admin-nav";
 import { Dropdown } from "rsuite";
 import { IoIosEye } from "react-icons/io";
 import { MdOutlineCheckBox } from "react-icons/md";
@@ -66,19 +66,31 @@ export default function AllTest() {
           <div className="px-2 lg:px-5 pt-0 pb-3">
             <div className="flex gap-11 lg:gap-16">
               <div className="flex items-center gap-1 lg:gap-3 text-nowrap">
-                <Image width={100} height={100} src="/question-filled-1.png" alt="" />{" "}
+                <Image
+                  width={100}
+                  height={100}
+                  src="/question-filled-1.png"
+                  alt=""
+                />{" "}
                 <span> 20 Questions</span>
               </div>
               <div className="flex items-center gap-1 lg:gap-3 text-nowrap">
-                <Image width={100} height={100} src="/ion-time.png" alt="" /> <span> 120 Mins</span>
+                <Image width={100} height={100} src="/ion-time.png" alt="" />{" "}
+                <span> 120 Mins</span>
               </div>
             </div>
             <div className="flex gap-8 lg:gap-12 mt-8">
               <div className="flex items-center gap-1 lg:gap-3 text-nowrap">
-                <Image width={100} height={100} src="/subscribe-1.png" alt="" /> <span>20 Subscribers</span>
+                <Image width={100} height={100} src="/subscribe-1.png" alt="" />{" "}
+                <span>20 Subscribers</span>
               </div>
               <div className="flex items-center gap-1 lg:gap-3 pl-1 text-nowrap">
-                <Image width={100} height={100} src="/lets-icons-date-range-fill.png" alt="" />
+                <Image
+                  width={100}
+                  height={100}
+                  src="/lets-icons-date-range-fill.png"
+                  alt=""
+                />
                 <span>24th Sep 2024</span>
               </div>
             </div>
@@ -88,7 +100,12 @@ export default function AllTest() {
                 <span>39 Test Takers</span>
               </div>
               <div className="flex items-center gap-3 text-nowrap">
-                <Image width={100} height={100} src="/canceledcheckbox.png" alt="" />
+                <Image
+                  width={100}
+                  height={100}
+                  src="/canceledcheckbox.png"
+                  alt=""
+                />
                 <span>39 Test Takers</span>
               </div>
             </div>
@@ -124,19 +141,31 @@ export default function AllTest() {
           <div className="px-2 lg:px-5 pt-0 pb-3">
             <div className="flex gap-11 lg:gap-16">
               <div className="flex items-center gap-1 lg:gap-3 text-nowrap">
-                <Image width={100} height={100} src="/question-filled-1.png" alt="" />{" "}
+                <Image
+                  width={100}
+                  height={100}
+                  src="/question-filled-1.png"
+                  alt=""
+                />{" "}
                 <span> 20 Questions</span>
               </div>
               <div className="flex items-center gap-1 lg:gap-3 text-nowrap">
-                <Image width={100} height={100} src="/ion-time.png" alt="" /> <span> 120 Mins</span>
+                <Image width={100} height={100} src="/ion-time.png" alt="" />{" "}
+                <span> 120 Mins</span>
               </div>
             </div>
             <div className="flex gap-8 lg:gap-12 mt-8">
               <div className="flex items-center gap-1 lg:gap-3 text-nowrap">
-                <Image width={100} height={100} src="/subscribe-1.png" alt="" /> <span>20 Subscribers</span>
+                <Image width={100} height={100} src="/subscribe-1.png" alt="" />{" "}
+                <span>20 Subscribers</span>
               </div>
               <div className="flex items-center gap-1 lg:gap-3 pl-1 text-nowrap">
-                <Image width={100} height={100} src="/lets-icons-date-range-fill.png" alt="" />
+                <Image
+                  width={100}
+                  height={100}
+                  src="/lets-icons-date-range-fill.png"
+                  alt=""
+                />
                 <span>24th Sep 2024</span>
               </div>
             </div>
@@ -146,7 +175,12 @@ export default function AllTest() {
                 <span>39 Test Takers</span>
               </div>
               <div className="flex items-center gap-3 text-nowrap">
-                <Image width={100} height={100} src="/canceledcheckbox.png" alt="" />
+                <Image
+                  width={100}
+                  height={100}
+                  src="/canceledcheckbox.png"
+                  alt=""
+                />
                 <span>39 Test Takers</span>
               </div>
             </div>
@@ -184,19 +218,31 @@ export default function AllTest() {
           <div className="px-2 lg:px-5 pt-0 pb-3">
             <div className="flex gap-11 lg:gap-16">
               <div className="flex items-center gap-1 lg:gap-3 text-nowrap">
-                <Image width={100} height={100} src="/question-filled-1.png" alt="" />{" "}
+                <Image
+                  width={100}
+                  height={100}
+                  src="/question-filled-1.png"
+                  alt=""
+                />{" "}
                 <span> 20 Questions</span>
               </div>
               <div className="flex items-center gap-1 lg:gap-3 text-nowrap">
-                <Image width={100} height={100} src="/ion-time.png" alt="" /> <span> 120 Mins</span>
+                <Image width={100} height={100} src="/ion-time.png" alt="" />{" "}
+                <span> 120 Mins</span>
               </div>
             </div>
             <div className="flex gap-8 lg:gap-12 mt-8">
               <div className="flex items-center gap-1 lg:gap-3 text-nowrap">
-                <Image width={100} height={100} src="/subscribe-1.png" alt="" /> <span>20 Subscribers</span>
+                <Image width={100} height={100} src="/subscribe-1.png" alt="" />{" "}
+                <span>20 Subscribers</span>
               </div>
               <div className="flex items-center gap-1 lg:gap-3 pl-1 text-nowrap">
-                <Image width={100} height={100} src="/lets-icons-date-range-fill.png" alt="" />
+                <Image
+                  width={100}
+                  height={100}
+                  src="/lets-icons-date-range-fill.png"
+                  alt=""
+                />
                 <span>24th Sep 2024</span>
               </div>
             </div>
@@ -206,7 +252,12 @@ export default function AllTest() {
                 <span>39 Test Takers</span>
               </div>
               <div className="flex items-center gap-3 text-nowrap">
-                <Image width={100} height={100} src="/canceledcheckbox.png" alt="" />
+                <Image
+                  width={100}
+                  height={100}
+                  src="/canceledcheckbox.png"
+                  alt=""
+                />
                 <span>39 Test Takers</span>
               </div>
             </div>
@@ -240,19 +291,31 @@ export default function AllTest() {
           <div className="px-2 lg:px-5 pt-0 pb-3">
             <div className="flex gap-11 lg:gap-16">
               <div className="flex items-center gap-1 lg:gap-3 text-nowrap">
-                <Image width={100} height={100} src="/question-filled-1.png" alt="" />{" "}
+                <Image
+                  width={100}
+                  height={100}
+                  src="/question-filled-1.png"
+                  alt=""
+                />{" "}
                 <span> 20 Questions</span>
               </div>
               <div className="flex items-center gap-1 lg:gap-3 text-nowrap">
-                <Image width={100} height={100} src="/ion-time.png" alt="" /> <span> 120 Mins</span>
+                <Image width={100} height={100} src="/ion-time.png" alt="" />{" "}
+                <span> 120 Mins</span>
               </div>
             </div>
             <div className="flex gap-8 lg:gap-12 mt-8">
               <div className="flex items-center gap-1 lg:gap-3 text-nowrap">
-                <Image width={100} height={100} src="/subscribe-1.png" alt="" /> <span>20 Subscribers</span>
+                <Image width={100} height={100} src="/subscribe-1.png" alt="" />{" "}
+                <span>20 Subscribers</span>
               </div>
               <div className="flex items-center gap-1 lg:gap-3 pl-1 text-nowrap">
-                <Image width={100} height={100} src="/lets-icons-date-range-fill.png" alt="" />
+                <Image
+                  width={100}
+                  height={100}
+                  src="/lets-icons-date-range-fill.png"
+                  alt=""
+                />
                 <span>24th Sep 2024</span>
               </div>
             </div>
@@ -262,7 +325,12 @@ export default function AllTest() {
                 <span>39 Test Takers</span>
               </div>
               <div className="flex items-center gap-3 text-nowrap">
-                <Image width={100} height={100} src="/canceledcheckbox.png" alt="" />
+                <Image
+                  width={100}
+                  height={100}
+                  src="/canceledcheckbox.png"
+                  alt=""
+                />
                 <span>39 Test Takers</span>
               </div>
             </div>

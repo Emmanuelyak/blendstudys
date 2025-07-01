@@ -1,9 +1,9 @@
 "use client";
 import React, { useState } from "react";
-import AdminNav from "@/app/(check)/admin-nav";
-import { ChevronRight,ChevronDown } from "lucide-react";
+import AdminNav from "@/components/admin-nav";
+import { ChevronRight, ChevronDown } from "lucide-react";
 import { Dropdown, Button, ButtonToolbar } from "rsuite";
-import { FeedbackModal } from "@/app/feedback/feedback-modal";
+import { FeedbackModal } from "@/components/feedback/feedback-modal";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -29,7 +29,12 @@ export default function Settings() {
             >
               <div className="flex items-center gap-3">
                 <div className="w-6">
-                  <Image width={100} height={100} src="/mdi-account-cog.png" alt="" />
+                  <Image
+                    width={100}
+                    height={100}
+                    src="/mdi-account-cog.png"
+                    alt=""
+                  />
                 </div>
                 <div>
                   <h4 className="text-nowrap text-sm md:text-lg">
@@ -63,7 +68,9 @@ export default function Settings() {
             >
               <div className="flex items-center gap-3">
                 <div className="w-6">
-                  <Image width={100} height={100}
+                  <Image
+                    width={100}
+                    height={100}
                     src="/tdesign-notification-filled2.png"
                     alt=""
                   />
@@ -92,13 +99,18 @@ export default function Settings() {
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-3">
               <div className="w-6">
-                <Image width={100} height={100}
+                <Image
+                  width={100}
+                  height={100}
                   src="/fluent-chat-help-20-filled.png"
                   alt=""
                 />
               </div>
               <div>
-                <Link href="/help-center" className="no-underline hover:no-underline hover:text-black text-black">
+                <Link
+                  href="/help-center"
+                  className="no-underline hover:no-underline hover:text-black text-black"
+                >
                   <h4 className="text-nowrap text-sm md:text-lg">
                     Help Center
                   </h4>
@@ -113,7 +125,12 @@ export default function Settings() {
             <div className="flex justify-between items-center">
               <div className="flex items-center gap-3">
                 <div className="w-6">
-                  <Image width={100} height={100} src="/fa6-solid-language.png" alt="" />
+                  <Image
+                    width={100}
+                    height={100}
+                    src="/fa6-solid-language.png"
+                    alt=""
+                  />
                 </div>
                 <div>
                   <h4 className="text-nowrap text-sm md:text-lg">Language</h4>
@@ -144,7 +161,9 @@ export default function Settings() {
               </div>
             </div>
             <Dropdown title="AUTO" className="theme-dropdown">
-              <Dropdown.Item><p className="pl-5">Auto</p></Dropdown.Item>
+              <Dropdown.Item>
+                <p className="pl-5">Auto</p>
+              </Dropdown.Item>
               <Dropdown.Item>Light</Dropdown.Item>
               <Dropdown.Item>Dark</Dropdown.Item>
             </Dropdown>
@@ -156,7 +175,9 @@ export default function Settings() {
             >
               <div className="flex items-center gap-3 relative overflow-hidden">
                 <div className="w-7">
-                  <Image width={100} height={100}
+                  <Image
+                    width={100}
+                    height={100}
                     src="/material-symbols-delete.png"
                     alt=""
                   />
@@ -184,4 +205,3 @@ export default function Settings() {
     </div>
   );
 }
-
