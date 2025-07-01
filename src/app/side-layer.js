@@ -1,6 +1,6 @@
 "use client";
 import React, { useContext, useEffect, useRef, useMemo } from "react";
-import SideBar, { SidebarItem } from "./(check)/my-nav/sideBar";
+import SideBar, { SidebarItem } from "../components/my-nav/sideBar";
 import { GlobalContext } from "./globalContext/globalContext";
 import { usePathname } from "next/navigation";
 
