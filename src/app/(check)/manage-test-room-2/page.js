@@ -1,7 +1,12 @@
 "use client";
 import React from "react";
 import AdminNav from "../admin-nav";
-import { Dropdown } from "rsuite";
+import dynamic from "next/dynamic";
+import Image from "next/image";
+
+const Dropdown = dynamic(() => import("rsuite").then((mod) => mod.Dropdown), {
+  ssr: false,
+});
 
 export default function ManageTestRooms(props) {
   return (
@@ -10,46 +15,64 @@ export default function ManageTestRooms(props) {
         <AdminNav title={"Manage Test Rooms"} />
       </div>
       <div className="flex justify-end 2xl:w-10/12 m-auto mb-3">
-      <div className="flex gap-3">
-            <div className="bg-gray-200 flex items-center rounded-md">
-              <div className="rounded-l-md hover:bg-gray-400 py-4  pl-2 pr-2 transition-colors ease-linear duration-150">
-                <div className="w-5 cursor-pointer">
-                  <img src="search.png" alt="search" width={"100%"} />
-                </div>
-              </div>
-              <div className="w-32 2xl:w-64">
-                <input
-                  className="py-4  w-full bg-transparent outline-none cursor-pointer"
-                  type="text"
-                  placeholder="Search"
+        <div className="flex gap-3">
+          <div className="bg-gray-200 flex items-center rounded-md">
+            <div className="rounded-l-md hover:bg-gray-400 py-4 pl-2 pr-2 transition-colors ease-linear duration-150">
+              <div className="w-5 cursor-pointer">
+                <Image
+                  width={100}
+                  height={100}
+                  src="/search.png"
+                  alt="search"
                 />
               </div>
             </div>
-            <div>
-              <button className="bg-gray-200 flex py-4 gap-4 pl-2 pe-2 2xl:pr-10 rounded">
-                <div className="w-4">
-                  <img src="funnel.png" alt=""  width={"100%"}/>
-                </div>{" "}
-                Filter
-              </button>
-            </div>
-            <div>
-              <button className="py-4 px-5 bg-gray-200 rounded-md" onClick={props.onClick}>
-                {" "}
-                <div className="w-5">
-                  <img src="layout-11.png" alt="layout" width={"100%"} />
-                </div>
-              </button>
-            </div>
-            <div>
-              <button className="py-4 px-5 bg-sub-bg rounded-md">
-                {" "}
-                <div className="w-5">
-                  <img src="bullet-list-67.png" alt="layout" width={"100%"} />
-                </div>
-              </button>
+            <div className="w-32 2xl:w-64">
+              <input
+                className="py-4  w-full bg-transparent outline-none cursor-pointer"
+                type="text"
+                placeholder="Search"
+              />
             </div>
           </div>
+          <div>
+            <button className="bg-gray-200 flex py-4 gap-4 pl-2 pe-2 2xl:pr-10 rounded">
+              <div className="w-4">
+                <Image width={100} height={100} src="/funnel.png" alt="" />
+              </div>{" "}
+              Filter
+            </button>
+          </div>
+          <div>
+            <button
+              className="py-4 px-5 bg-gray-200 rounded-md"
+              onClick={props.onClick}
+            >
+              {" "}
+              <div className="w-5">
+                <Image
+                  width={100}
+                  height={100}
+                  src="/layout-11.png"
+                  alt="layout"
+                />
+              </div>
+            </button>
+          </div>
+          <div>
+            <button className="py-4 px-5 bg-sub-bg rounded-md">
+              {" "}
+              <div className="w-5">
+                <Image
+                  width={100}
+                  height={100}
+                  src="/bullet-list-67.png"
+                  alt="layout"
+                />
+              </div>
+            </button>
+          </div>
+        </div>
       </div>
       <div className="grid 2xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-10 2xl:w-10/12 m-auto ">
         <div className="border-2 rounded-md border-color">
@@ -79,25 +102,42 @@ export default function ManageTestRooms(props) {
           <div className="px-5 pt-0 pb-3">
             <div className="flex gap-16">
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="question-filled-1.png" alt="" />{" "}
+                <Image
+                  width={100}
+                  height={100}
+                  src="/question-filled-1.png"
+                  alt=""
+                />{" "}
                 <span> 20 Questions</span>
               </div>
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="ion-time.png" alt="" /> <span> 120 Mins</span>
+                <Image width={100} height={100} src="/ion-time.png" alt="" />{" "}
+                <span> 120 Mins</span>
               </div>
             </div>
             <div className="flex gap-12 mt-8">
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="subscribe-1.png" alt="" /> <span>20 Subscribers</span>
+                <Image width={100} height={100} src="/subscribe-1.png" alt="" />{" "}
+                <span>20 Subscribers</span>
               </div>
               <div className="flex items-center gap-3 pl-1 text-nowrap">
-                <img src="lets-icons-date-range-fill.png" alt="" />
+                <Image
+                  width={100}
+                  height={100}
+                  src="/lets-icons-date-range-fill.png"
+                  alt=""
+                />
                 <span>24th Sep 2024</span>
               </div>
             </div>
             <div className="mt-12">
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="fluent-people-team-20-filled-1.png" alt="" />
+                <Image
+                  width={100}
+                  height={100}
+                  src="/fluent-people-team-20-filled-1.png"
+                  alt=""
+                />
                 <span>39 Test Takers</span>
               </div>
             </div>
@@ -110,7 +150,7 @@ export default function ManageTestRooms(props) {
                 Active
               </div>
               <div className="mt-4">
-                {/* <img src="Vector (17).png" alt="" /> */}
+                {/* <Image width={100} height={100} src="/Vector (17).png" alt="" /> */}
                 <Dropdown
                   title="&#9679; &#9679; &#9679;"
                   noCaret
@@ -133,25 +173,42 @@ export default function ManageTestRooms(props) {
           <div className="px-5 pt-0 pb-3">
             <div className="flex gap-16">
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="question-filled-1.png" alt="" />
+                <Image
+                  width={100}
+                  height={100}
+                  src="/question-filled-1.png"
+                  alt=""
+                />
                 <span> 20 Questions</span>
               </div>
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="ion-time.png" alt="" /> <span> 120 Mins</span>
+                <Image width={100} height={100} src="/ion-time.png" alt="" />{" "}
+                <span> 120 Mins</span>
               </div>
             </div>
             <div className="flex gap-12 mt-8">
               <div className="flex items-center gap-3">
-                <img src="subscribe-1.png" alt="" /> <span>20 Subscribers</span>
+                <Image width={100} height={100} src="/subscribe-1.png" alt="" />{" "}
+                <span>20 Subscribers</span>
               </div>
               <div className="flex items-center gap-3 pl-1 text-nowrap">
-                <img src="lets-icons-date-range-fill.png" alt="" />
+                <Image
+                  width={100}
+                  height={100}
+                  src="/lets-icons-date-range-fill.png"
+                  alt=""
+                />
                 <span>24th Sep 2024</span>
               </div>
             </div>
             <div className="mt-12">
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="fluent-people-team-20-filled-1.png" alt="" />
+                <Image
+                  width={100}
+                  height={100}
+                  src="/fluent-people-team-20-filled-1.png"
+                  alt=""
+                />
                 <span>39 Test Takers</span>
               </div>
             </div>
@@ -166,7 +223,7 @@ export default function ManageTestRooms(props) {
                 Inactive
               </div>
               <div className="mt-4">
-                {/* <img src="Vector (17).png" alt="" /> */}
+                {/* <Image width={100} height={100} src="/Vector (17).png" alt="" /> */}
                 <Dropdown
                   title="&#9679; &#9679; &#9679;"
                   noCaret
@@ -189,25 +246,42 @@ export default function ManageTestRooms(props) {
           <div className="px-5 pt-0 pb-3">
             <div className="flex gap-16">
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="question-filled-1.png" alt="" />
+                <Image
+                  width={100}
+                  height={100}
+                  src="/question-filled-1.png"
+                  alt=""
+                />
                 <span> 20 Questions</span>
               </div>
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="ion-time.png" alt="" /> <span> 120 Mins</span>
+                <Image width={100} height={100} src="/ion-time.png" alt="" />{" "}
+                <span> 120 Mins</span>
               </div>
             </div>
             <div className="flex gap-12 mt-8">
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="subscribe-1.png" alt="" /> <span>20 Subscribers</span>
+                <Image width={100} height={100} src="/subscribe-1.png" alt="" />{" "}
+                <span>20 Subscribers</span>
               </div>
               <div className="flex items-center gap-3 pl-1 text-nowrap">
-                <img src="lets-icons-date-range-fill.png" alt="" />
+                <Image
+                  width={100}
+                  height={100}
+                  src="/lets-icons-date-range-fill.png"
+                  alt=""
+                />
                 <span>24th Sep 2024</span>
               </div>
             </div>
             <div className="mt-12">
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="fluent-people-team-20-filled-1.png" alt="" />
+                <Image
+                  width={100}
+                  height={100}
+                  src="/fluent-people-team-20-filled-1.png"
+                  alt=""
+                />
                 <span>39 Test Takers</span>
               </div>
             </div>
@@ -216,9 +290,11 @@ export default function ManageTestRooms(props) {
         <div className="border-2 rounded-md border-color">
           <div className="px-5 pt-5 pb-3 w-full border-b-2 border-background-color mb-5">
             <div className="flex justify-between items-center">
-              <div className="bg-inactive p-2 rounded-md text-red-500 text-2">Inactive</div>
+              <div className="bg-inactive p-2 rounded-md text-red-500 text-2">
+                Inactive
+              </div>
               <div className="mt-4">
-                {/* <img src="Vector (17).png" alt="" /> */}
+                {/* <Image width={100} height={100} src="/Vector (17).png" alt="" /> */}
                 <Dropdown
                   title="&#9679; &#9679; &#9679;"
                   noCaret
@@ -241,25 +317,42 @@ export default function ManageTestRooms(props) {
           <div className="px-5 pt-0 pb-3">
             <div className="flex gap-16">
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="question-filled-1.png" alt="" />
+                <Image
+                  width={100}
+                  height={100}
+                  src="/question-filled-1.png"
+                  alt=""
+                />
                 <span> 20 Questions</span>
               </div>
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="ion-time.png" alt="" /> <span> 120 Mins</span>
+                <Image width={100} height={100} src="/ion-time.png" alt="" />{" "}
+                <span> 120 Mins</span>
               </div>
             </div>
             <div className="flex gap-12 mt-8">
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="subscribe-1.png" alt="" /> <span>20 Subscribers</span>
+                <Image width={100} height={100} src="/subscribe-1.png" alt="" />{" "}
+                <span>20 Subscribers</span>
               </div>
               <div className="flex items-center gap-3 pl-1 text-nowrap">
-                <img src="lets-icons-date-range-fill.png" alt="" />
+                <Image
+                  width={100}
+                  height={100}
+                  src="/lets-icons-date-range-fill.png"
+                  alt=""
+                />
                 <span>24th Sep 2024</span>
               </div>
             </div>
             <div className="mt-12">
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="fluent-people-team-20-filled-1.png" alt="" />
+                <Image
+                  width={100}
+                  height={100}
+                  src="/fluent-people-team-20-filled-1.png"
+                  alt=""
+                />
                 <span>39 Test Takers</span>
               </div>
             </div>
@@ -282,7 +375,7 @@ export default function ManageTestRooms(props) {
             <div>3</div>
             <div>4</div>
             <div>
-              <img src="vector-17.png" alt="" />
+              <Image width={100} height={100} src="/vector-17.png" alt="" />
             </div>
             <div>10</div>
             <div>11</div>
@@ -293,4 +386,3 @@ export default function ManageTestRooms(props) {
     </div>
   );
 }
-

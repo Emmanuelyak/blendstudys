@@ -2,6 +2,7 @@
 import React from "react";
 import AdminNav from "../admin-nav";
 import { Dropdown } from "rsuite";
+import Image from "next/image";
 
 function page() {
   return (
@@ -52,10 +53,10 @@ function page() {
 
             <div className="flex">
               <div className="w-6/12">
-                <img src="frame-1707478555.png" alt="" width={"100%"}/>
+                <Image width={100} height={100} src="/frame-1707478555.png" alt="" />
               </div>
               <div className="w-6/12">
-                <img src="frame-1707478556.png" alt="" width={"100%"}/>
+                <Image width={100} height={100} src="/frame-1707478556.png" alt="" />
                 </div>
             </div>
           </div>
@@ -249,7 +250,7 @@ function page() {
             <div>3</div>
             <div>4</div>
             <div>
-              <img src="vector-17.png" alt="" />
+              <Image width={100} height={100} src="/vector-17.png" alt="" />
             </div>
             <div>10</div>
             <div>11</div>

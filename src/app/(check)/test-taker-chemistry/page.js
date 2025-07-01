@@ -3,6 +3,7 @@ import React from "react";
 import AdminNav from "../admin-nav";
 import { FiMoreVertical } from "react-icons/fi";
 import { Dropdown } from "rsuite";
+import Image from "next/image";
 
 export default function page() {
   return (
@@ -17,7 +18,7 @@ export default function page() {
           <div className="bg-sub-bg-2 rounded p-3 border border-custom-2">
             <div className="flex items-center">
               <div className="w-8">
-                <img src="icon-park-open-2.png" alt="" width="100%" />
+                <Image width={100} height={100} src="/icon-park-open-2.png" alt="" />
               </div>
               <div className="text-base font-bold">43</div>
             </div>
@@ -26,7 +27,7 @@ export default function page() {
           <div className="bg-sub-bg rounded p-3 border border-background-color">
             <div className="flex items-center">
               <div className="w-8">
-                <img src="icon-button-191.png" alt="" width="100%" />
+                <Image width={100} height={100} src="/icon-button-191.png" alt="" />
               </div>
               <div className="text-base font-bold">30</div>
             </div>
@@ -35,7 +36,7 @@ export default function page() {
           <div className="bg-white rounded p-3 border border-black">
             <div className="flex items-center"> 
               <div className="w-8">
-                <img src="icon-button-192.png" alt="" width="100%" />
+                <Image width={100} height={100} src="/icon-button-192.png" alt="" />
               </div>
               <div className="text-base font-bold">13</div>
             </div>
@@ -44,7 +45,7 @@ export default function page() {
           <div className="bg-inactive rounded p-3 border border-red-500">
             <div className="flex items-center">            
               <div className="w-8">
-                <img src="icon-button-201.png" alt="" width="100%" />
+                <Image width={100} height={100} src="/icon-button-201.png" alt="" />
               </div>
               <div className="text-base font-bold">50%</div>
             </div>
@@ -56,7 +57,7 @@ export default function page() {
             <div className="bg-gray-200 flex items-center h-14 rounded-md">
               <div className="rounded-l-md hover:bg-gray-400 py-4 pl-2 pr-2 transition-colors ease-linear duration-150">
                 <div className="w-5 cursor-pointer">
-                  <img src="search.png" alt="search" width={"100%"} />
+                  <Image width={100} height={100} src="/search.png" alt="search" />
                 </div>
               </div>
               <div className="w-56 2xl:w-64">
@@ -70,7 +71,7 @@ export default function page() {
             <div className="h-12">
               <button className="bg-gray-200 flex py-4 gap-4 pl-2 pr-10 rounded">
                 <div className="w-4">
-                  <img src="funnel.png" alt=""  width={"100%"}/>
+                  <Image width={100} height={100} src="/funnel.png" alt="" />
                 </div>
                 Filter
               </button>
@@ -78,7 +79,7 @@ export default function page() {
             <div className="h-12">
               <button className="py-4 px-5 bg-gray-200 rounded-md">
                 <div className="w-5">
-                  <img src="vector-322.png" alt="layout" width={"100%"} />
+                  <Image width={100} height={100} src="/vector-322.png" alt="layout" />
                 </div>
               </button>
             </div>
@@ -100,11 +101,11 @@ export default function page() {
             </thead>
             <tbody>
             <tr>
-                    <td className="w-[5%] p-3"> <img src="create-11.png" alt="" /></td>
+                    <td className="w-[5%] p-3"> <Image width={100} height={100} src="/create-11.png" alt="" /></td>
                     <td className="w-[18%] p-3">Chinyere Adaku</td>
                     <td className="w-[18%] p-3">20</td>
                     <td className="w-[18%] p-3">15/30</td>
-                    <td className="w-[18%] p-3"><img src="group-2376591.png" alt="" /></td>
+                    <td className="w-[18%] p-3"><Image width={100} height={100} src="/group-2376591.png" alt="" /></td>
                     <td className="w-[18%] p-3"><div className="text-background-color py-2 px-4 w-20  bg-sub-bg rounded-3xl">Active</div></td>
                     <td className="w-[5%] p-3">  <Dropdown title={<FiMoreVertical/>}  noCaret className="dropdown2 dropdown5" >
                     <Dropdown.Item>New File</Dropdown.Item>
@@ -117,11 +118,11 @@ export default function page() {
                   </Dropdown></td>
             </tr>
             <tr>
-                    <td className="w-[5%] p-3"> <img src="create-11.png" alt="" /></td>
+                    <td className="w-[5%] p-3"> <Image width={100} height={100} src="/create-11.png" alt="" /></td>
                     <td className="w-[18%] p-3">Chinyere Adaku</td>
                     <td className="w-[18%] p-3">20</td>
                     <td className="w-[18%] p-3">15/30</td>
-                    <td className="w-[18%] p-3"><img src="group-2376591.png" alt="" /></td>
+                    <td className="w-[18%] p-3"><Image width={100} height={100} src="/group-2376591.png" alt="" /></td>
                     <td className="w-[18%] p-3"><div className="bg-inactive py-2 px-4 w-20 text-red-500 rounded-3xl">Active</div></td>
                     <td className="w-[5%] p-3">  <Dropdown title={<FiMoreVertical/>}  noCaret className="dropdown2 dropdown5" >
                     <Dropdown.Item>New File</Dropdown.Item>
@@ -134,11 +135,11 @@ export default function page() {
                   </Dropdown></td>
             </tr>
             <tr>
-                    <td className="w-[5%] p-3"> <img src="create-11.png" alt="" /></td>
+                    <td className="w-[5%] p-3"> <Image width={100} height={100} src="/create-11.png" alt="" /></td>
                     <td className="w-[18%] p-3">Chinyere Adaku</td>
                     <td className="w-[18%] p-3">20</td>
                     <td className="w-[18%] p-3">15/30</td>
-                    <td className="w-[18%] p-3"><img src="group-2376591.png" alt="" /></td>
+                    <td className="w-[18%] p-3"><Image width={100} height={100} src="/group-2376591.png" alt="" /></td>
                     <td className="w-[18%] p-3"><div className="text-background-color py-2 px-4 w-20  bg-sub-bg rounded-3xl">Active</div></td>
                     <td className="w-[5%] p-3">  <Dropdown title={<FiMoreVertical/>}  noCaret className="dropdown2 dropdown5" >
                     <Dropdown.Item>New File</Dropdown.Item>
@@ -151,11 +152,11 @@ export default function page() {
                   </Dropdown></td>
             </tr>
             <tr>
-                    <td className="w-[5%] p-3"> <img src="create-11.png" alt="" /></td>
+                    <td className="w-[5%] p-3"> <Image width={100} height={100} src="/create-11.png" alt="" /></td>
                     <td className="w-[18%] p-3">Chinyere Adaku</td>
                     <td className="w-[18%] p-3">20</td>
                     <td className="w-[18%] p-3">15/30</td>
-                    <td className="w-[18%] p-3"><img src="group-2376591.png" alt="" /></td>
+                    <td className="w-[18%] p-3"><Image width={100} height={100} src="/group-2376591.png" alt="" /></td>
                     <td className="w-[18%] p-3"><div className="text-background-color py-2 px-4 w-20  bg-sub-bg rounded-3xl">Active</div></td>
                     <td className="w-[5%] p-3">  <Dropdown title={<FiMoreVertical/>}  noCaret className="dropdown2 dropdown5" >
                     <Dropdown.Item>New File</Dropdown.Item>
@@ -168,11 +169,11 @@ export default function page() {
                   </Dropdown></td>
             </tr>
             <tr className="bg-gray-200">
-                    <td className="w-[5%] p-3"> <img src="create-11.png" alt="" /></td>
+                    <td className="w-[5%] p-3"> <Image width={100} height={100} src="/create-11.png" alt="" /></td>
                     <td className="w-[18%] p-3">Chinyere Adaku</td>
                     <td className="w-[18%] p-3">20</td>
                     <td className="w-[18%] p-3">15/30</td>
-                    <td className="w-[18%] p-3"><img src="group-2376591.png" alt="" /></td>
+                    <td className="w-[18%] p-3"><Image width={100} height={100} src="/group-2376591.png" alt="" /></td>
                     <td className="w-[18%] p-3"><div className="text-background-color py-2 px-4 w-20  bg-sub-bg rounded-3xl">Active</div></td>
                     <td className="w-[5%] p-3">  <Dropdown title={<FiMoreVertical/>}  noCaret className="dropdown2 dropdown5" >
                     <Dropdown.Item>New File</Dropdown.Item>
@@ -185,11 +186,11 @@ export default function page() {
                   </Dropdown></td>
             </tr>
             <tr>
-                    <td className="w-[5%] p-3"> <img src="create-11.png" alt="" /></td>
+                    <td className="w-[5%] p-3"> <Image width={100} height={100} src="/create-11.png" alt="" /></td>
                     <td className="w-[18%] p-3">Chinyere Adaku</td>
                     <td className="w-[18%] p-3">20</td>
                     <td className="w-[18%] p-3">15/30</td>
-                    <td className="w-[18%] p-3"><img src="group-2376591.png" alt="" /></td>
+                    <td className="w-[18%] p-3"><Image width={100} height={100} src="/group-2376591.png" alt="" /></td>
                     <td className="w-[18%] p-3"><div className="text-red-500 py-2 px-4 w-20  bg-inactive rounded-3xl">Active</div></td>
                     <td className="w-[5%] p-3">  <Dropdown title={<FiMoreVertical/>}  noCaret className="dropdown2 dropdown5" >
                     <Dropdown.Item>New File</Dropdown.Item>
@@ -202,11 +203,11 @@ export default function page() {
                   </Dropdown></td>
             </tr>
             <tr className="bg-gray-200">
-                    <td className="w-[5%] p-3"> <img src="create-11.png" alt="" /></td>
+                    <td className="w-[5%] p-3"> <Image width={100} height={100} src="/create-11.png" alt="" /></td>
                     <td className="w-[18%] p-3">Chinyere Adaku</td>
                     <td className="w-[18%] p-3">20</td>
                     <td className="w-[18%] p-3">15/30</td>
-                    <td className="w-[18%] p-3"><img src="group-2376591.png" alt="" /></td>
+                    <td className="w-[18%] p-3"><Image width={100} height={100} src="/group-2376591.png" alt="" /></td>
                     <td className="w-[18%] p-3"><div className="text-background-color py-2 px-4 w-20  bg-sub-bg rounded-3xl">Active</div></td>
                     <td className="w-[5%] p-3">  <Dropdown title={<FiMoreVertical/>}  noCaret className="dropdown2 dropdown5" >
                     <Dropdown.Item>New File</Dropdown.Item>
@@ -219,11 +220,11 @@ export default function page() {
                   </Dropdown></td>
             </tr>
             <tr>
-                    <td className="w-[5%] p-3"> <img src="create-11.png" alt="" /></td>
+                    <td className="w-[5%] p-3"> <Image width={100} height={100} src="/create-11.png" alt="" /></td>
                     <td className="w-[18%] p-3">Chinyere Adaku</td>
                     <td className="w-[18%] p-3">20</td>
                     <td className="w-[18%] p-3">15/30</td>
-                    <td className="w-[18%] p-3"><img src="group-2376591.png" alt="" /></td>
+                    <td className="w-[18%] p-3"><Image width={100} height={100} src="/group-2376591.png" alt="" /></td>
                     <td className="w-[18%] p-3"><div className="text-background-color py-2 px-4 w-20  bg-sub-bg rounded-3xl">Active</div></td>
                     <td className="w-[5%] p-3">  <Dropdown title={<FiMoreVertical/>}  noCaret className="dropdown2 dropdown5" >
                     <Dropdown.Item>New File</Dropdown.Item>
@@ -262,7 +263,7 @@ export default function page() {
                    <thead>
                      <tr>
                        <th className="text-black p-3 border text-2 flex items-start gap-28  border-gray-400 bg-gray-100">
-                       <span className="w-[5%]"> <img src="create-11.png" alt="" /></span>
+                       <span className="w-[5%]"> <Image width={100} height={100} src="/create-11.png" alt="" /></span>
                        NAME</th>
                      </tr>
                    </thead>
@@ -305,7 +306,7 @@ export default function page() {
                    </thead>
                    <tbody>
                      <tr className="">
-                     <td className="w-[18%] p-3 border border-gray-400"><img src="group-2376591.png" alt="" /></td>
+                     <td className="w-[18%] p-3 border border-gray-400"><Image width={100} height={100} src="/group-2376591.png" alt="" /></td>
                      </tr>
                    </tbody>
                    <thead>
@@ -342,7 +343,7 @@ export default function page() {
             <div>3</div>
             <div>4</div>
             <div>
-              <img src="vector-17.png" alt="" />
+              <Image width={100} height={100} src="/vector-17.png" alt="" />
             </div>
             <div>10</div>
             <div>11</div>

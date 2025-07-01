@@ -5,6 +5,7 @@ import { ChevronRight } from "lucide-react";
 import { Dropdown, Button, ButtonToolbar } from "rsuite";
 import { FeedbackModal } from "@/app/feedback/feedback-modal";
 import Link from "next/link";
+import Image from "next/image";
 
 function page() {
   const [accountCenter, setAccountCenter] = useState(false);
@@ -28,7 +29,7 @@ function page() {
             >
               <div className="flex items-center gap-3">
                 <div className="w-6">
-                  <img src="mdi-account-cog.png" alt="" width={"100%"} />
+                  <Image width={100} height={100} src="/mdi-account-cog.png" alt="" />
                 </div>
                 <div>
                   <h4 className="text-nowrap text-sm md:text-lg">
@@ -62,10 +63,9 @@ function page() {
             >
               <div className="flex items-center gap-3">
                 <div className="w-6">
-                  <img
-                    src="tdesign-notification-filled2.png"
+                  <Image width={100} height={100}
+                    src="/tdesign-notification-filled2.png"
                     alt=""
-                    width={"100%"}
                   />
                 </div>
                 <div>
@@ -92,10 +92,9 @@ function page() {
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-3">
               <div className="w-6">
-                <img
-                  src="fluent-chat-help-20-filled.png"
+                <Image width={100} height={100}
+                  src="/fluent-chat-help-20-filled.png"
                   alt=""
-                  width={"100%"}
                 />
               </div>
               <div>
@@ -114,7 +113,7 @@ function page() {
             <div className="flex justify-between items-center">
               <div className="flex items-center gap-3">
                 <div className="w-6">
-                  <img src="fa6-solid-language.png" alt="" width={"100%"} />
+                  <Image width={100} height={100} src="/fa6-solid-language.png" alt="" />
                 </div>
                 <div>
                   <h4 className="text-nowrap text-sm md:text-lg">Language</h4>
@@ -138,7 +137,7 @@ function page() {
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-2">
               <div className="w-6">
-                <img src="mdi-theme.png" alt="" width={"100%"} />
+                <Image width={100} height={100} src="/mdi-theme.png" alt="" />
               </div>
               <div>
                 <h4 className="text-nowrap text-sm md:text-lg">Theme</h4>
@@ -157,10 +156,9 @@ function page() {
             >
               <div className="flex items-center gap-3 relative overflow-hidden">
                 <div className="w-7">
-                  <img
-                    src="material-symbols-delete.png"
+                  <Image width={100} height={100}
+                    src="/material-symbols-delete.png"
                     alt=""
-                    width={"100%"}
                   />
                 </div>
                 <div>

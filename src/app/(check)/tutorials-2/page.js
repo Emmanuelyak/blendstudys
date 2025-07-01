@@ -1,3 +1,4 @@
+import Image from "next/image";
 import AdminNav from "../admin-nav";
 
 function Tutorial2() {
@@ -14,7 +15,7 @@ function Tutorial2() {
         <div className="bg-gray-100 w-full md:flex md:items-start gap-5 px-10 py-5 rounded-md mb-4 mt-4 md:mt-10">
           <div className="p-6 flex justify-center items-center md:block bg-sub-bg w-18">
             <div className="w-10">
-              <img src="groups-237661.png" alt="" className="w-full" />
+              <Image width={100} height={100} src="/groups-237661.png" alt="" className="w-full" />
             </div>
           </div>
           <div>

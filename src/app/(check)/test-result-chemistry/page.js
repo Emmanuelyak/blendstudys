@@ -2,6 +2,7 @@
 import React from "react";
 import AdminNav from "../admin-nav";
 import SimpleBar from "simplebar-react";
+import Image from "next/image";
 
 export default function page() {
   return (
@@ -63,16 +64,16 @@ export default function page() {
         <div className="p-2 lg:px-10 w-11/12 xl:w-8/12 lg:w-9/12 md:w-9/12">
 
         <div className="flex justify-between py-5 px-10 border border-gray-600 rounded-md mb-4">
-            <p>Has been the industry's standard dummy text ever since the 1500s.</p> <div><img src="checkbox.png" alt="" /></div>
+            <p>Has been the industry's standard dummy text ever since the 1500s.</p> <div><Image width={100} height={100} src="/checkbox.png" alt="" /></div>
         </div>
         <div className="flex justify-between py-5 px-10 border border-gray-600 rounded-md mb-4">
-            <p>Has been the industry's standard dummy text ever since the 1500s.</p> <div><img src="checkbox.png" alt="" /></div>
+            <p>Has been the industry's standard dummy text ever since the 1500s.</p> <div><Image width={100} height={100} src="/checkbox.png" alt="" /></div>
         </div>
         <div className="flex justify-between py-5 px-10 border border-gray-600 rounded-md mb-4">
-            <p>Has been the industry's standard dummy text ever since the 1500s.</p> <div><img src="checkbox.png" alt="" /></div>
+            <p>Has been the industry's standard dummy text ever since the 1500s.</p> <div><Image width={100} height={100} src="/checkbox.png" alt="" /></div>
         </div>
         <div className="flex justify-between py-5 px-10 border border-gray-600 rounded-md mb-4">
-            <p>Has been the industry's standard dummy text ever since the 1500s.</p> <div><img src="checkbox.png" alt="" /></div>
+            <p>Has been the industry's standard dummy text ever since the 1500s.</p> <div><Image width={100} height={100} src="/checkbox.png" alt="" /></div>
         </div>
         </div>
         </div>
@@ -108,16 +109,16 @@ export default function page() {
         <div className="p-2 lg:px-10 w-11/12 xl:w-8/12 lg:w-9/12 md:w-9/12">
 
         <div className="flex justify-between py-5 px-10 border border-gray-600 rounded-md mb-4">
-            <p>Has been the industry's standard dummy text ever since the 1500s.</p> <div><img src="checkbox.png" alt="" /></div>
+            <p>Has been the industry's standard dummy text ever since the 1500s.</p> <div><Image width={100} height={100} src="/checkbox.png" alt="" /></div>
         </div>
         <div className="flex justify-between py-5 px-10 border border-gray-600 rounded-md mb-4">
-            <p>Has been the industry's standard dummy text ever since the 1500s.</p> <div><img src="checkbox.png" alt="" /></div>
+            <p>Has been the industry's standard dummy text ever since the 1500s.</p> <div><Image width={100} height={100} src="/checkbox.png" alt="" /></div>
         </div>
         <div className="flex justify-between py-5 px-10 border border-gray-600 rounded-md mb-4">
-            <p>Has been the industry's standard dummy text ever since the 1500s.</p> <div><img src="checkbox.png" alt="" /></div>
+            <p>Has been the industry's standard dummy text ever since the 1500s.</p> <div><Image width={100} height={100} src="/checkbox.png" alt="" /></div>
         </div>
         <div className="flex justify-between py-5 px-10 border border-gray-600 rounded-md mb-4">
-            <p>Has been the industry's standard dummy text ever since the 1500s.</p> <div><img src="checkbox.png" alt="" /></div>
+            <p>Has been the industry's standard dummy text ever since the 1500s.</p> <div><Image width={100} height={100} src="/checkbox.png" alt="" /></div>
         </div>
         </div>
         </div>

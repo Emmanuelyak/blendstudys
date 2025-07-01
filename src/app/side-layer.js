@@ -11,13 +11,13 @@ export default function SideLayer() {
   console.log(router)
   
   const userNav = [
-    { image: "vector-9.png", title: "Home", url: "/dashboard" },
-    { image: "comment322.png", title: "Test Rooms", url: "/manage-test-rooms" },
-    { image: "fluent-people-team-20-filled-1.png", title: "Subscribers", url: "/all-subscribers" },
-    { image: "majesticons-analytics-1.png", title: "Analytics", url: "/dashboard" },
-    { image: "majesticons-analytics.png", title: "Revenue", url: "/dashboard" },
-    { image: "vector-11.png", title: "Profile", url: "/register" },
-    { image: "weui-setting-filled.png", title: "Settings", url: "/settings" },
+    { image: "/vector-9.png", title: "Home", url: "/dashboard" },
+    { image: "/comment322.png", title: "Test Rooms", url: "/manage-test-rooms" },
+    { image: "/fluent-people-team-20-filled-1.png", title: "Subscribers", url: "/all-subscribers" },
+    { image: "/majesticons-analytics-1.png", title: "Analytics", url: "/dashboard" },
+    { image: "/majesticons-analytics.png", title: "Revenue", url: "/dashboard" },
+    { image: "/vector-11.png", title: "Profile", url: "/register" },
+    { image: "/weui-setting-filled.png", title: "Settings", url: "/settings" },
   ];
 
   useEffect(() => {

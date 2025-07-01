@@ -3,6 +3,7 @@ import React from "react";
 import AdminNav from "../admin-nav";
 import { Dropdown } from "rsuite";
 import { RxDotsHorizontal } from "react-icons/rx";
+import Image from "next/image";
 
 export default function AllTest() {
   return (
@@ -45,25 +46,25 @@ export default function AllTest() {
           <div className="px-2 lg:px-5 pt-0 pb-3">
             <div className="flex gap-11 lg:gap-16">
               <div className="flex items-center gap-1 lg:gap-3 text-nowrap">
-                <img src="question-filled-1.png" alt="" />{" "}
+                <Image width={100} height={100} src="/question-filled-1.png" alt="" />{" "}
                 <span> 20 Questions</span>
               </div>
               <div className="flex items-center gap-1 lg:gap-3 text-nowrap">
-                <img src="ion-time.png" alt="" /> <span> 120 Mins</span>
+                <Image width={100} height={100} src="/ion-time.png" alt="" /> <span> 120 Mins</span>
               </div>
             </div>
             <div className="flex gap-8 lg:gap-12 mt-8">
               <div className="flex items-center gap-1 lg:gap-3 text-nowrap">
-                <img src="subscribe-1.png" alt="" /> <span>20 Subscribers</span>
+                <Image width={100} height={100} src="/subscribe-1.png" alt="" /> <span>20 Subscribers</span>
               </div>
               <div className="flex items-center gap-1 lg:gap-3 pl-1 text-nowrap">
-                <img src="lets-icons-date-range-fill.png" alt="" />
+                <Image width={100} height={100} src="/lets-icons-date-range-fill.png" alt="" />
                 <span>24th Sep 2024</span>
               </div>
             </div>
             <div className="mt-12">
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="fluent-people-team-20-filled-1.png" alt="" />
+                <Image width={100} height={100} src="/fluent-people-team-20-filled-1.png" alt="" />
                 <span>39 Test Takers</span>
               </div>
             </div>
@@ -76,7 +77,7 @@ export default function AllTest() {
                 Published
               </div>
               <div className="mt-4">
-                {/* <img src="Vector (17).png" alt="" /> */}
+                {/* <img src="/Vector (17).png" alt="" /> */}
                 <Dropdown
                   title={<RxDotsHorizontal />}
                   noCaret
@@ -99,25 +100,25 @@ export default function AllTest() {
           <div className="px-2 lg:px-5 pt-0 pb-3">
             <div className="flex gap-11 lg:gap-16">
               <div className="flex items-center gap-1 lg:gap-3 text-nowrap">
-                <img src="question-filled-1.png" alt="" />{" "}
+                <Image width={100} height={100} src="/question-filled-1.png" alt="" />{" "}
                 <span> 20 Questions</span>
               </div>
               <div className="flex items-center gap-1 lg:gap-3 text-nowrap">
-                <img src="ion-time.png" alt="" /> <span> 120 Mins</span>
+                <Image width={100} height={100} src="/ion-time.png" alt="" /> <span> 120 Mins</span>
               </div>
             </div>
             <div className="flex gap-8 lg:gap-12 mt-8">
               <div className="flex items-center gap-1 lg:gap-3 text-nowrap">
-                <img src="subscribe-1.png" alt="" /> <span>20 Subscribers</span>
+                <Image width={100} height={100} src="/subscribe-1.png" alt="" /> <span>20 Subscribers</span>
               </div>
               <div className="flex items-center gap-1 lg:gap-3 pl-1 text-nowrap">
-                <img src="lets-icons-date-range-fill.png" alt="" />
+                <Image width={100} height={100} src="/lets-icons-date-range-fill.png" alt="" />
                 <span>24th Sep 2024</span>
               </div>
             </div>
             <div className="mt-12">
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="fluent-people-team-20-filled-1.png" alt="" />
+                <Image width={100} height={100} src="/fluent-people-team-20-filled-1.png" alt="" />
                 <span>39 Test Takers</span>
               </div>
             </div>
@@ -132,7 +133,7 @@ export default function AllTest() {
                 Scheduled
               </div>
               <div className="mt-4">
-                {/* <img src="Vector (17).png" alt="" /> */}
+                {/* <img src="/Vector (17).png" alt="" /> */}
                 <Dropdown
                   title={<RxDotsHorizontal />}
                   noCaret
@@ -155,25 +156,25 @@ export default function AllTest() {
           <div className="px-2 lg:px-5 pt-0 pb-3">
             <div className="flex gap-11 lg:gap-16">
               <div className="flex items-center gap-1 lg:gap-3 text-nowrap">
-                <img src="question-filled-1.png" alt="" />{" "}
+                <Image width={100} height={100} src="/question-filled-1.png" alt="" />{" "}
                 <span> 20 Questions</span>
               </div>
               <div className="flex items-center gap-1 lg:gap-3 text-nowrap">
-                <img src="ion-time.png" alt="" /> <span> 120 Mins</span>
+                <Image width={100} height={100} src="/ion-time.png" alt="" /> <span> 120 Mins</span>
               </div>
             </div>
             <div className="flex gap-8 lg:gap-12 mt-8">
               <div className="flex items-center gap-1 lg:gap-3 text-nowrap">
-                <img src="subscribe-1.png" alt="" /> <span>20 Subscribers</span>
+                <Image width={100} height={100} src="/subscribe-1.png" alt="" /> <span>20 Subscribers</span>
               </div>
               <div className="flex items-center gap-1 lg:gap-3 pl-1 text-nowrap">
-                <img src="lets-icons-date-range-fill.png" alt="" />
+                <Image width={100} height={100} src="/lets-icons-date-range-fill.png" alt="" />
                 <span>24th Sep 2024</span>
               </div>
             </div>
             <div className="mt-12">
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="fluent-people-team-20-filled-1.png" alt="" />
+                <Image width={100} height={100} src="/fluent-people-team-20-filled-1.png" alt="" />
                 <span>39 Test Takers</span>
               </div>
             </div>
@@ -184,7 +185,7 @@ export default function AllTest() {
             <div className="flex justify-between items-center">
               <div className="bg-sub-bg p-2 rounded-md text-2">Draft</div>
               <div className="mt-4">
-                {/* <img src="Vector (17).png" alt="" /> */}
+                {/* <img src="/Vector (17).png" alt="" /> */}
                 <Dropdown
                   title={<RxDotsHorizontal />}
                   noCaret
@@ -207,25 +208,25 @@ export default function AllTest() {
           <div className="px-2 lg:px-5 pt-0 pb-3">
             <div className="flex gap-11 lg:gap-16">
               <div className="flex items-center gap-1 lg:gap-3 text-nowrap">
-                <img src="question-filled-1.png" alt="" />{" "}
+                <Image width={100} height={100} src="/question-filled-1.png" alt="" />{" "}
                 <span> 20 Questions</span>
               </div>
               <div className="flex items-center gap-1 lg:gap-3 text-nowrap">
-                <img src="ion-time.png" alt="" /> <span> 120 Mins</span>
+                <Image width={100} height={100} src="/ion-time.png" alt="" /> <span> 120 Mins</span>
               </div>
             </div>
             <div className="flex gap-8 lg:gap-12 mt-8">
               <div className="flex items-center gap-1 lg:gap-3 text-nowrap">
-                <img src="subscribe-1.png" alt="" /> <span>20 Subscribers</span>
+                <Image width={100} height={100} src="/subscribe-1.png" alt="" /> <span>20 Subscribers</span>
               </div>
               <div className="flex items-center gap-1 lg:gap-3 pl-1 text-nowrap">
-                <img src="lets-icons-date-range-fill.png" alt="" />
+                <Image width={100} height={100} src="/lets-icons-date-range-fill.png" alt="" />
                 <span>24th Sep 2024</span>
               </div>
             </div>
             <div className="mt-12">
               <div className="flex items-center gap-3 text-nowrap">
-                <img src="fluent-people-team-20-filled-1.png" alt="" />
+                <Image width={100} height={100} src="/fluent-people-team-20-filled-1.png" alt="" />
                 <span>39 Test Takers</span>
               </div>
             </div>
@@ -248,7 +249,7 @@ export default function AllTest() {
             <div>3</div>
             <div>4</div>
             <div>
-              <img src="vector-17.png" alt="" />
+              <Image width={100} height={100} src="/vector-17.png" alt="" />
             </div>
             <div>10</div>
             <div>11</div>

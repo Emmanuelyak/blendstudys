@@ -1,8 +1,9 @@
 import React from "react";
+import Image from "next/image";
 
-function Subfolder() {
+function Banner() {
   return (
-    <div className="flex ">
+    <div className="flex pt-10">
       <div className="w-3/6 flex justify-center mt-40 md:ml-8">
         <div>
           <h2 className="2xl:text-7xl md:text-4xl text-white font-semibold mt-20 leading-snug">
@@ -32,19 +33,19 @@ function Subfolder() {
           </div>
         </div>
       </div>
-      <div className="w-3/6 flex  mt-20 gap-5 mt-40 md:mr-4">
+      <div className="w-3/6 flex  mt-20 gap-5 md:mr-4">
         <div className="2xl:w-54">
-          <img  className="2xl:w-full"  src="rectangle-14701.png" alt="img1" />
+          <Image width={100} height={100} layout="responsive" loading="lazy" className="" src="/rectangle-14701.png" alt="Image1" />
         </div>
         <div  className="mt-20 2xl:w-54">
-          <img className="2xl:w-full"  src="rectangle-1471.png" alt="img2" />
+          <Image width={100} height={100} layout="responsive" loading="lazy" className="2xl:w-full" src="/rectangle-1471.png" alt="Image2" />
         </div>
         <div className="2xl:w-54">
-          <img  className="2xl:w-full" src="rectangle-1472.png" alt="img3" />
+          <Image width={100} height={100} layout="responsive" loading="lazy" className="2xl:w-full" src="/rectangle-1472.png" alt="img3" />
         </div>
       </div>
     </div>
   );
 }
 
-export default Subfolder;
+export default Banner;

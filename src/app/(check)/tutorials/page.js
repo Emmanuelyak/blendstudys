@@ -1,3 +1,4 @@
+import Image from "next/image";
 import AdminNav from "../admin-nav";
 
 function Tutorial() {
@@ -12,7 +13,7 @@ function Tutorial() {
         <div className="bg-gray-100 w-full md:flex md:items-center gap-5 px-10 py-5 rounded-md mb-4 mt-4">
             <div className="p-6 flex justify-center items-center md:block bg-sub-bg w-18">
             <div className="w-10">
-                <img src="comment322.png" alt="" className="w-full" />
+                <Image width={100} height={100} src="/comment322.png" alt="" className="w-full" />
             </div>
             </div>
             <div><h5 className="mb-4">What is the purpose of the platform</h5>
@@ -21,7 +22,7 @@ function Tutorial() {
         <div className="bg-gray-100 w-full md:flex md:items-center gap-5 px-10 py-5 rounded-md mb-4 mt-4">
             <div className="p-6 flex justify-center items-center md:block bg-sub-bg w-18">
             <div className="w-10">
-                <img src="comment322.png" alt="" className="w-full" />
+                <Image width={100} height={100} src="/comment322.png" alt="" className="w-full" />
             </div>
             </div>
             <div><h5 className="mb-4">What is the purpose of the platform</h5>
@@ -30,7 +31,7 @@ function Tutorial() {
         <div className="bg-gray-100 w-full md:flex md:items-center gap-5 px-10 py-5 rounded-md mb-4 mt-4">
             <div className="p-6 flex justify-center items-center md:block bg-sub-bg w-18">
             <div className="w-10">
-                <img src="comment322.png" alt="" className="w-full" />
+                <Image width={100} height={100} src="/comment322.png" alt="" className="w-full" />
             </div>
             </div>
             <div><h5 className="mb-4">What is the purpose of the platform</h5>

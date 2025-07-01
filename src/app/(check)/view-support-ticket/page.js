@@ -1,16 +1,20 @@
 "use client";
-import React from "react";
+import React, {useRef} from "react";
 import AdminNav from "@/app/(check)/admin-nav";
 import { Dropdown, IconButton } from "rsuite";
 import { FiMoreVertical } from "react-icons/fi";
 import ManageTestRooms from "../manage-test-room-2/page";
+import Image from "next/image";
 
 export default function ManageTestRoomsTable() {
-  const [show, setShow] = React.useState(false);
+  const dropdownRef = useRef(null);
+  const show = useRef(false);
+  // const [show, setShow] = React.useState(false);
   const icon = `<div className="flex flex-col gap-1">&#9679;&#9679;&#9679;</div>`;
   console.log(icon);
   const onClick = () => {
-    setShow(!show);
+    // setShow(!show);
+    show.current = !show;
   }
   return (
     <div>
@@ -28,7 +32,7 @@ export default function ManageTestRoomsTable() {
             <div className="bg-gray-200 flex items-center rounded-md w-full">
               <div className="rounded-l-md hover:bg-gray-400 py-4 pl-2 pr-2 transition-colors ease-linear duration-150">
                 <div className="w-5 cursor-pointer">
-                  <img src="search.png" alt="search" width={"100%"} />
+                  <Image width={100} height={100} src="/search.png" alt="search" />
                 </div>
               </div>
               <div className="2xl:w-64 w-full">
@@ -43,7 +47,7 @@ export default function ManageTestRoomsTable() {
               <div>
                 <button className="bg-gray-200 flex py-4 gap-4 pl-2 pe-2 md:pr-10 pr-24 rounded">
                   <div className="w-4">
-                    <img src="funnel.png" alt="" width={"100%"} />
+                    <Image width={100} height={100} src="/funnel.png" alt="" />
                   </div>
                   Filter
                 </button>
@@ -51,14 +55,14 @@ export default function ManageTestRoomsTable() {
               <div>
                 <button className="py-4 px-5 bg-gray-200 rounded-md" onClick={onClick}>
                   <div className="w-5">
-                    <img src="layout-11.png" alt="layout" width={"100%"} />
+                    <Image width={100} height={100} src="/layout-11.png" alt="layout" />
                   </div>
                 </button>
               </div>
               <div>
                 <button className="py-4 px-5 bg-sub-bg rounded-md">
                   <div className="w-5">
-                    <img src="bullet-list-67.png" alt="layout" width={"100%"} />
+                    <Image width={100} height={100} src="/bullet-list-67.png" alt="layout" />
                   </div>
                 </button>
               </div>
@@ -493,7 +497,7 @@ export default function ManageTestRoomsTable() {
               <div>3</div>
               <div>4</div>
               <div>
-                <img src="vector-17.png" alt="" />
+                <Image width={100} height={100} src="/vector-17.png" alt="" />
               </div>
               <div>10</div>
               <div>11</div>

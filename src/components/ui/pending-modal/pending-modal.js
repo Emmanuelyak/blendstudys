@@ -1,5 +1,6 @@
 "use client"
 import React from 'react'
+import { Modal } from 'rsuite';
 
 export default function PendingModal( ) {
     const [open, setOpen] = React.useState(false);

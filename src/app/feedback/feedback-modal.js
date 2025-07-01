@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image";
 import React,{useState} from "react";
 import { Modal } from "rsuite";
 
@@ -30,10 +31,10 @@ export const FeedbackModal = () => {
             </p>
 
             <div className="flex justify-between items-center w-10/12 m-auto pt-8 pb-4">
-              <div><img src="tops-up.png" alt="" /></div>
-              <div><img src="heart.png" alt="" /></div>
-              <div><img src="clap.png" alt="" /></div>
-              <div><img src="wow.png" alt="" /></div>
+              <div><Image width={100} height={100} src="/tops-up.png" alt="" /></div>
+              <div><Image width={100} height={100} src="/heart.png" alt="" /></div>
+              <div><Image width={100} height={100} src="/clap.png" alt="" /></div>
+              <div><Image width={100} height={100} src="/wow.png" alt="" /></div>
             </div>
             <div className="flex justify-between items-center w-10/12 m-auto pt-8 pb-4 outline-none">
                 <textarea className="h-28 w-full rounded-sm bg-gray-100"></textarea>

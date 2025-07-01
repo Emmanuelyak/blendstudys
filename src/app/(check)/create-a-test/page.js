@@ -2,6 +2,7 @@
 import React from "react";
 import AdminNav from "../admin-nav";
 import { Dropdown } from "rsuite";
+import Image from "next/image";
 
 export default function CreateTest() {
   return (
@@ -24,7 +25,7 @@ export default function CreateTest() {
               className="dropdown3 dropdown4"
             ></Dropdown>{" "}
             <div className="bg-background-color flex p-2 rounded gap-1 text-white">
-              Time: 00:30s <img src="vector-20.png" alt="" />
+              Time: 00:30s <Image width={100} height={100} src="vector-20.png" alt="" />
             </div>
           </div>
         </div>
@@ -40,9 +41,9 @@ export default function CreateTest() {
 
           <div className="absolute bottom-3 left-[66%] md:left-[78%] lg:left-[80%] 2xl:left-[92%]">
             <div className="flex gap-5">
-              <img src="ph-file-text-bold.png" alt="" />
-              <img src="ic-baseline-image.png" alt="" />
-              <img src="fa6-solid-video.png" alt="" />
+              <Image width={100} height={100} src="ph-file-text-bold.png" alt="" />
+              <Image width={100} height={100} src="ic-baseline-image.png" alt="" />
+              <Image width={100} height={100} src="fa6-solid-video.png" alt="" />
             </div>
           </div>
         </div>
@@ -52,7 +53,7 @@ export default function CreateTest() {
             <div className="flex justify-between">
               <label htmlFor="">Choice 1</label>
               <div>
-                <img src="weui-delete-filled.png" alt="" />
+                <Image width={100} height={100} src="weui-delete-filled.png" alt="" />
               </div>
             </div>
             <div>
@@ -70,7 +71,7 @@ export default function CreateTest() {
             <div className="flex justify-between">
               <label htmlFor="">Choice 2</label>
               <div>
-                <img src="weui-delete-filled.png" alt="" />
+                <Image width={100} height={100} src="weui-delete-filled.png" alt="" />
               </div>
             </div>
             <div>
@@ -90,7 +91,7 @@ export default function CreateTest() {
             <div className="flex justify-between">
               <label htmlFor="">Choice 1</label>
               <div>
-                <img src="weui-delete-filled.png" alt="" />
+                <Image width={100} height={100} src="weui-delete-filled.png" alt="" />
               </div>
             </div>
             <div>
@@ -108,7 +109,7 @@ export default function CreateTest() {
             <div className="flex justify-between">
               <label htmlFor="">Choice 2</label>
               <div>
-                <img src="weui-delete-filled.png" alt="" />
+                <Image width={100} height={100} src="weui-delete-filled.png" alt="" />
               </div>
             </div>
             <div>

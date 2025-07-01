@@ -1,8 +1,9 @@
 "use client";
-import Subfolder from "./sub-folder/sub-folder";
-import Footer from "./footer/footer";
-import Navigation from "@/app/navigation/navigation";
+import Footer from "../components/footer/footer";
+import Navigation from "@/components/ui/navigation/navigation";
 import Rating from "@/app/rating/rating";
+import Image from "next/image";
+import Banner from "../components/banner/banner";
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
           <div className="bg-white p-2.5 m-auto rounded-xl w-11/12 top-2.5 2xl:right-20 shadow-lg">
           </div>
         </div> */}
-        <Subfolder />
+        <Banner />
       </div>
       <Rating />
 
@@ -29,35 +30,41 @@ export default function Home() {
           </p>
         </div>
         <div className="2xl:flex 2xl:w-full lg:w-full 2xl:justify-center md:grid md:grid-cols-5 mb-3 gap-2.5 mt-5 ">
-          <div className="2xl:w-28 lg:w-20 border border-color rounded flex items-center flex-col pt-2 p-2">
+          <div className="2xl:w-28 lg:w-20 border relative border-color rounded flex items-center flex-col pt-2 p-2">
             <div className="mt-2">
-              <img src="tdesign-mathematics.png" alt="img" />
+              <Image
+                width={30}
+                height={100}
+                objectFit="cover"
+                src="/tdesign-mathematics.png"
+                alt="img"
+              />
             </div>
-            <div className="mt-8">Mathematics</div>
+            <div className="absolute bottom-2">Mathematics</div>
           </div>
-          <div className="2xl:w-28 lg:w-20  border border-color rounded flex items-center flex-col pt-2 p-2">
-            <div className="mt-3">
-              <img src="group.png" alt="img" />
+          <div className="2xl:w-28 lg:w-20 relative border border-color rounded flex items-center flex-col pt-2 p-2">
+            <div className="mt-3 mb-6">
+              <Image width={30} height={100} src="/group.png" alt="img" />
             </div>
-            <div className="mt-9">Chemistry</div>
+            <div className="absolute bottom-2">Chemistry</div>
           </div>
-          <div className="2xl:w-28 lg:w-20  border border-color rounded flex items-center flex-col pt-2 p-2">
-            <div className="mt-4">
-              <img src="vector.png" alt="img" />
+          <div className="2xl:w-28 lg:w-20 relative  border border-color rounded flex items-center flex-col pt-2 p-2">
+            <div className="mt-4 mb-6">
+              <Image width={30} height={100} src="/vector.png" alt="img" />
             </div>
-            <div className="mt-12">English</div>
+            <div className="absolute bottom-2">English</div>
           </div>
-          <div className="2xl:w-28 lg:w-20  border border-color rounded flex items-center flex-col pt-2 p-2">
-            <div className="mt-2">
-              <img src="vector-1.png" alt="img" />
+          <div className="2xl:w-28 lg:w-20 relative border border-color rounded flex items-center flex-col pt-2 p-2">
+            <div className="mt-2 mb-6">
+              <Image width={30} height={100} src="/vector-1.png" alt="img" />
             </div>
-            <div className="mt-11">Literature</div>
+            <div className="absolute bottom-2">Literature</div>
           </div>
-          <div className="2xl:w-28 lg:w-20  border border-color rounded flex items-center flex-col pt-2 p-2">
-            <div className="mt-2">
-              <img src="group-1.png" alt="img" />
+          <div className="2xl:w-28 lg:w-20 relative border border-color rounded flex items-center flex-col pt-2 p-2">
+            <div className="mt-2 mb-6">
+              <Image width={30} height={100} src="/group-1.png" alt="img" />
             </div>
-            <div className="mt-8">Biology</div>
+            <div className="absolute bottom-2">Biology</div>
           </div>
         </div>
         <div>
@@ -93,14 +100,29 @@ export default function Home() {
               match the needs of every <br className="md:hidden" /> learner.
             </p>
           </div>
-          <div className="2xl:w-6/12">
-            <img src="group-8.png" alt="image" className="md:w-full" />
+          <div className="w-10/12 relative h-80">
+            {/* h-64 = 16rem, adjust as needed */}
+            <Image
+              src="/group-8.png"
+              alt="image"
+              fill
+              className="object-cover rounded"
+              sizes="100vw"
+              priority
+            />
           </div>
         </div>
 
-        <div className="2xl:w-9/12 md:w-11/12 flex md:flex-col m-auto gap-30 items-center mb-10">
-          <div className="2xl:w-6/12 md:order-2 md:w-full">
-            <img src="group-237730.png" alt="image" className="md:w-full" />
+        <div className="2xl:w-9/12 md:w-11/12 flex lg:flex-row md:flex-col m-auto gap-30 items-center mb-10">
+          <div className="lg:w-6/12 relative h-80 lg:order-1 md:order-2 md:w-full">
+            <Image
+              fill
+              sizes="100vw"
+              src="/group-237730.png"
+              alt="image"
+              className="object-cover rounded"
+              priority
+            />
           </div>
           <div className="2xl:w-6/12 md:order-1 flex md:flex-col 2xl:justify-center md:justify-start text-left md:left-0 2xl:text-right">
             <h1 className="font-bold 2xl:text-4xl md:text-3xl md:text-center">
@@ -134,8 +156,14 @@ export default function Home() {
               improves understanding.
             </p>
           </div>
-          <div className="w-6/12">
-            <img src="rectangle-23.png" alt="image" />
+          <div className="w-6/12 relative h-80">
+            <Image
+              src="/rectangle-23.png"
+              alt="image"
+              priority
+              fill
+              sizes="100vw"
+            />
           </div>
         </div>
       </div>
@@ -150,7 +178,12 @@ export default function Home() {
         <div className=" grid grid-cols-3 gap-20 w-10/12 m-auto">
           <div className="">
             <div>
-              <img src="fluent-mdl2-learning-tools.png" alt="img" />
+              <Image
+                width={20}
+                height={100}
+                src="/fluent-mdl2-learning-tools.png"
+                alt="img"
+              />
             </div>
             <h1 className="font-bold text-xl mt-2 mb-2">
               Personalized Learning Experience
@@ -162,7 +195,7 @@ export default function Home() {
           </div>
           <div className="">
             <div className="">
-              <img src="vector-2.png" alt="img" />
+              <Image width={20} height={100} src="/vector-2.png" alt="img" />
             </div>
             <h1 className="font-bold text-xl mt-2 mb-2">
               Flexible Learning Solutions
@@ -175,7 +208,7 @@ export default function Home() {
           </div>
           <div className="">
             <div>
-              <img src="vector-3.png" alt="img" />
+              <Image width={20} height={100} src="/vector-3.png" alt="img" />
               <h1 className="font-bold text-xl mt-2 mb-2">
                 Collaborative Community
               </h1>
@@ -204,7 +237,7 @@ export default function Home() {
             <div className="flex items-center gap-1">
               {" "}
               <div>
-                <img src="vector-8.png" alt="" />
+                <Image width={10} height={100} src="/vector-8.png" alt="" />
               </div>
               <div>
                 <p className="text-base">
@@ -215,7 +248,7 @@ export default function Home() {
             <div className="flex items-center gap-1">
               {" "}
               <div>
-                <img src="vector-8.png" alt="" />
+                <Image width={10} height={100} src="/vector-8.png" alt="" />
               </div>
               <div>
                 <p className="text-base">
@@ -226,7 +259,7 @@ export default function Home() {
             <div className="flex items-center gap-1">
               {" "}
               <div>
-                <img src="vector-8.png" alt="" />
+                <Image width={10} height={100} src="/vector-8.png" alt="" />
               </div>
               <div>
                 <p className="text-base">
@@ -238,13 +271,13 @@ export default function Home() {
           </div>
           <div className="bg-white rounded p-10">
             {" "}
-            <img src="rectangle-1484.png" alt="" />
+            <Image src="/rectangle-1484.png" alt="" width={100} height={90} layout="responsive" loading="lazy"  />
           </div>
         </div>
         <div className=" flex  gap-20 w-3/4 justify-center  m-auto mt-20 items-center text-white">
           <div className="bg-white rounded p-10">
             {" "}
-            <img src="rectangle-1477.png" alt="" />
+            <Image width={100} height={100} layout="responsive" loading="lazy"  src="/rectangle-1477.png" alt="" />
           </div>
           <div>
             <h1 className="font-bold text-3xl mb-4">
@@ -253,7 +286,7 @@ export default function Home() {
             <div className="flex items-center gap-1">
               {" "}
               <div>
-                <img src="vector-8.png" alt="" />
+                <Image width={10} height={10} src="/vector-8.png" alt="" />
               </div>
               <div>
                 <p className="text-base">
@@ -264,7 +297,7 @@ export default function Home() {
             <div className="flex items-center gap-1">
               {" "}
               <div>
-                <img src="vector-8.png" alt="" />
+                <Image width={10} height={100} src="/vector-8.png" alt="" />
               </div>
               <div>
                 <p className="text-base">
@@ -274,8 +307,8 @@ export default function Home() {
             </div>
             <div className="flex items-start gap-1">
               {" "}
-              <div className="mt-1">
-                <img src="vector-8.png" alt="" />
+              <div className="mt-2">
+                <Image width={10} height={100} src="/vector-8.png" alt="" />
               </div>
               <div>
                 <p className="text-base">
@@ -292,7 +325,7 @@ export default function Home() {
             <div className="flex items-center gap-1">
               {" "}
               <div>
-                <img src="vector-8.png" alt="" />
+                <Image width={10} height={100} src="/vector-8.png" alt="" />
               </div>
               <div>
                 <p className="text-base">
@@ -303,7 +336,7 @@ export default function Home() {
             <div className="flex items-center gap-1">
               {" "}
               <div>
-                <img src="vector-8.png" alt="" />
+                <Image width={10} height={100} src="/vector-8.png" alt="" />
               </div>
               <div>
                 <p className="text-base">
@@ -314,7 +347,7 @@ export default function Home() {
             <div className="flex items-start gap-1">
               {" "}
               <div className="mt-1">
-                <img src="vector-8.png" alt="" />
+                <Image width={10} height={100} src="/vector-8.png" alt="" />
               </div>
               <div>
                 <p className="text-base">
@@ -326,7 +359,7 @@ export default function Home() {
           </div>
           <div className="bg-white rounded p-10">
             {" "}
-            <img src="rectangle-1478.png" alt="" />
+            <Image width={100} height={100} layout="responsive" loading="lazy" src="/rectangle-1478.png" alt="" />
           </div>
         </div>
       </div>

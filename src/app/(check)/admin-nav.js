@@ -1,6 +1,7 @@
 "use client"
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
 export default function AdminNav(props) {
   return (
@@ -9,7 +10,7 @@ export default function AdminNav(props) {
         <div className="flex items-center justify-between 2xl:justify-between md:justify-start 2xl:w-full md:w-full">
           <div className="w-16 md:w-32 lg:w-52 2xl:w-52 2xl:flex md:flex md:justify-start 2xl:ml-10">
             <Link href="/">
-              <img src="blend-studylogo.svg" alt="logo"  className="w-full"/>
+              <Image width={100} height={100} src="/blend-studylogo.svg" alt="logo"  className="w-full"/>
             </Link>
           </div>
           <div></div>
@@ -20,17 +21,17 @@ export default function AdminNav(props) {
           </div>
           <div className="w-28 lg:gap-2 2xl:w-1/4 lg:w-1/4  md:w-48 flex md:gap-2 justify-evenly 2xl:justify-evenly md:justify-evenly">
             <div className="w-3 lg:w-8">
-              <img
-                src="tdesign-notification-filled.png"
+              <Image width={100} height={100}
+                src="/tdesign-notification-filled.png"
                 alt=""
                 className="w-full"
               />
             </div>
             <div className="w-3 lg:w-8">
-              <img src="vector-12.png" alt="" className="w-full" />
+              <Image width={100} height={100} src="/vector-12.png" alt="" className="w-full" />
             </div>
             <div className="w-3 lg:w-8">
-              <img src="ant-design-message-filled.png" alt="" className="w-full" />
+              <Image width={100} height={100} src="/ant-design-message-filled.png" alt="" className="w-full" />
             </div>
           </div>
         </div>
