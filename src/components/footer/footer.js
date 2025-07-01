@@ -38,7 +38,7 @@ function Footer(props) {
             </div>
 
             <div className="text-lg lg:text-2xl">
-              “Lorem Ipsum has been the industry's
+              “Lorem Ipsum has been the industry&apos;s
               <br /> standard dummy text ever since the
               <br /> 1500s.”
             </div>
@@ -77,7 +77,7 @@ function Footer(props) {
             </div>
 
             <div className="text-lg lg:text-2xl">
-              “Lorem Ipsum has been the industry's
+              “Lorem Ipsum has been the industry&apos;s
               <br /> standard dummy text ever since the
               <br /> 1500s.”
             </div>
@@ -116,7 +116,7 @@ function Footer(props) {
             </div>
 
             <div className="text-lg lg:text-2xl">
-              “Lorem Ipsum has been the industry's
+              “Lorem Ipsum has been the industry&apos;s
               <br /> standard dummy text ever since the
               <br /> 1500s.”
             </div>
@@ -158,7 +158,7 @@ function Footer(props) {
             </div>
 
             <div className="text-lg lg:text-2xl">
-              “Lorem Ipsum has been the industry's
+              “Lorem Ipsum has been the industry&apos;s
               <br /> standard dummy text ever since the
               <br /> 1500s.”
             </div>
@@ -197,7 +197,7 @@ function Footer(props) {
             </div>
 
             <div className="text-lg lg:text-2xl">
-              “Lorem Ipsum has been the industry's
+              “Lorem Ipsum has been the industry&apos;s
               <br /> standard dummy text ever since the
               <br /> 1500s.”
             </div>
@@ -236,7 +236,7 @@ function Footer(props) {
             </div>
 
             <div className="text-lg lg:text-2xl">
-              “Lorem Ipsum has been the industry's
+              “Lorem Ipsum has been the industry&apos;s
               <br /> standard dummy text ever since the
               <br /> 1500s.”
             </div>

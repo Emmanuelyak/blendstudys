@@ -1,13 +1,13 @@
 "use client";
 import React, { useState } from "react";
 import AdminNav from "@/app/(check)/admin-nav";
-import { ChevronRight } from "lucide-react";
+import { ChevronRight,ChevronDown } from "lucide-react";
 import { Dropdown, Button, ButtonToolbar } from "rsuite";
 import { FeedbackModal } from "@/app/feedback/feedback-modal";
 import Link from "next/link";
 import Image from "next/image";
 
-function page() {
+export default function Settings() {
   const [accountCenter, setAccountCenter] = useState(false);
   const [notificationManager, setNotificationManager] = useState(false);
 
@@ -185,4 +185,3 @@ function page() {
   );
 }
 
-export default page;

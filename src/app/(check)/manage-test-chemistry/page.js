@@ -27,10 +27,10 @@ function page() {
               <h6 className="pb-5">Test Room Description</h6>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
+                industry. Lorem Ipsum has been the industry&apos;s standard dummy
                 text ever since the 1500sLorem Ipsum is simply dummy text of the
                 printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s...
+                industry&apos;s standard dummy text ever since the 1500s...
               </p>
             </div>
             <div className=" mt-10">
@@ -85,34 +85,34 @@ function page() {
               </div>
               <h6 className="px-10 py-3">
                 1500sLorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry's
+                typesetting industry. Lorem Ipsum has been the industry&apos;s
                 standard dummy text ever since the 1500s
               </h6>
               <div className="flex px-10 items-center gap-5 pb-5">
                 <span className="bg-background-color w-5 h-4"></span>
                 <p>
-                  Has been the industry's standard dummy text ever since the
+                  Has been the industry&apos;s standard dummy text ever since the
                   1500s.
                 </p>
               </div>
               <div className="flex px-10 items-center gap-5 pb-5">
                 <span className="bg-background-color w-5 h-4"></span>
                 <p>
-                  Has been the industry's standard dummy text ever since the
+                  Has been the industry&apos;s standard dummy text ever since the
                   1500s.
                 </p>
               </div>
               <div className="flex px-10 items-center gap-5 pb-5">
                 <span className="bg-background-color w-5 h-4"></span>
                 <p>
-                  Has been the industry's standard dummy text ever since the
+                  Has been the industry&apos;s standard dummy text ever since the
                   1500s.
                 </p>
               </div>
               <div className="flex px-10 items-center gap-5 pb-5">
                 <span className="bg-background-color w-5 h-4"></span>
                 <p>
-                  Has been the industry's standard dummy text ever since the
+                  Has been the industry&apos;s standard dummy text ever since the
                   1500s.
                 </p>
               </div>
@@ -140,34 +140,34 @@ function page() {
               </div>
               <h6 className="px-10 py-6">
                 1500sLorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry's
+                typesetting industry. Lorem Ipsum has been the industry&apos;s
                 standard dummy text ever since the 1500s
               </h6>
               <div className="flex px-10 items-center gap-5 pb-5">
                 <span className="bg-background-color w-5 h-4"></span>
                 <p>
-                  Has been the industry's standard dummy text ever since the
+                  Has been the industry&apos;s standard dummy text ever since the
                   1500s.
                 </p>
               </div>
               <div className="flex px-10 items-center gap-5 pb-5">
                 <span className="bg-background-color w-5 h-4"></span>
                 <p>
-                  Has been the industry's standard dummy text ever since the
+                  Has been the industry&apos;s standard dummy text ever since the
                   1500s.
                 </p>
               </div>
               <div className="flex px-10 items-center gap-5 pb-5">
                 <span className="bg-background-color w-5 h-4"></span>
                 <p>
-                  Has been the industry's standard dummy text ever since the
+                  Has been the industry&apos;s standard dummy text ever since the
                   1500s.
                 </p>
               </div>
               <div className="flex px-10 items-center gap-5 pb-5">
                 <span className="bg-background-color w-5 h-4"></span>
                 <p>
-                  Has been the industry's standard dummy text ever since the
+                  Has been the industry&apos;s standard dummy text ever since the
                   1500s.
                 </p>
               </div>
@@ -195,34 +195,34 @@ function page() {
               </div>
               <h6 className="px-10 py-6">
                 1500sLorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry's
+                typesetting industry. Lorem Ipsum has been the industry&apos;s
                 standard dummy text ever since the 1500s
               </h6>
               <div className="flex px-10 items-center gap-5 pb-5">
                 <span className="bg-background-color w-5 h-4"></span>
                 <p>
-                  Has been the industry's standard dummy text ever since the
+                  Has been the industry&apos;s standard dummy text ever since the
                   1500s.
                 </p>
               </div>
               <div className="flex px-10 items-center gap-5 pb-5">
                 <span className="bg-background-color w-5 h-4"></span>
                 <p>
-                  Has been the industry's standard dummy text ever since the
+                  Has been the industry&apos;s standard dummy text ever since the
                   1500s.
                 </p>
               </div>
               <div className="flex px-10 items-center gap-5 pb-5">
                 <span className="bg-background-color w-5 h-4"></span>
                 <p>
-                  Has been the industry's standard dummy text ever since the
+                  Has been the industry&apos;s standard dummy text ever since the
                   1500s.
                 </p>
               </div>
               <div className="flex px-10 items-center gap-5 pb-5">
                 <span className="bg-background-color w-5 h-4"></span>
                 <p>
-                  Has been the industry's standard dummy text ever since the
+                  Has been the industry&apos;s standard dummy text ever since the
                   1500s.
                 </p>
               </div>

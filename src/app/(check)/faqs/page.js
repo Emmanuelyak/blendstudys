@@ -15,7 +15,7 @@ function Faqs() {
           </div>
           <div className="w-100 lg:w-10/12 2xl:w-6/12 m-auto mt-20">
             <div><h4 className="text-center mb-6">Frequently Asked Questions</h4>
-            <p className="text-center">Quick answers to questions you may have about Blendstudy. Can’t </p>
+            <p className="text-center">Quick answers to questions you may have about Blendstudy. Can&apos;t </p>
             <p className="text-center">find what you’re looking for?<span className="text-color"> Get in Touch</span></p>
             </div>
 
@@ -23,7 +23,7 @@ function Faqs() {
                 <div className="flex gap-3 items-center mb-3" onClick={()=> setSection1(!section1)}><div>{section1? <ChevronUp/> : <ChevronDown/> }</div>
                 <div><h5 className="text-sm md:text-xl">What do we do?</h5></div></div>
                 {section1 && (
-                    <div><p className="text-xs md:text-md">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p></div>
+                    <div><p className="text-xs md:text-md">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s</p></div>
                 )}
                 
             </div>
@@ -31,7 +31,7 @@ function Faqs() {
                 <div className="flex gap-3 items-center mb-3" onClick={()=> setSection2(!section2)}><div>{section2? <ChevronUp/> : <ChevronDown/> }</div>
                 <div><h5 className="text-sm md:text-xl">What is the purpose of the platform</h5></div></div>
                 {section2 && (
-                    <div><p className="text-xs md:text-md">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p></div>
+                    <div><p className="text-xs md:text-md">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s</p></div>
                 )}
                 
             </div>
@@ -39,7 +39,7 @@ function Faqs() {
                 <div className="flex gap-3 items-center mb-3" onClick={()=> setSection3(!section3)}><div>{section3? <ChevronUp/> : <ChevronDown/> }</div>
                 <div><h5 className="text-sm md:text-xl">How do I sign up for an account?</h5></div></div>
                 {section3 && (
-                    <div><p className="text-xs md:text-md">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p></div>
+                    <div><p className="text-xs md:text-md">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s</p></div>
                 )}
                 
             </div>
@@ -47,7 +47,7 @@ function Faqs() {
                 <div className="flex gap-3 items-center mb-3" onClick={()=> setSection4(!section4)}><div>{section4? <ChevronUp/> : <ChevronDown/> }</div>
                 <div><h5 className="text-sm md:text-xl">How do I contact support?</h5></div></div>
                 {section4 && (
-                    <div><p className="text-xs md:text-md">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p></div>
+                    <div><p className="text-xs md:text-md">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s</p></div>
                 )}
                 
             </div>

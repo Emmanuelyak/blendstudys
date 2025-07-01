@@ -17,7 +17,7 @@ function Tutorial() {
             </div>
             </div>
             <div><h5 className="mb-4">What is the purpose of the platform</h5>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</p></div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&lsquo;s standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&lsquo;s standard dummy text ever since the 1500s...</p></div>
         </div>
         <div className="bg-gray-100 w-full md:flex md:items-center gap-5 px-10 py-5 rounded-md mb-4 mt-4">
             <div className="p-6 flex justify-center items-center md:block bg-sub-bg w-18">
@@ -26,7 +26,7 @@ function Tutorial() {
             </div>
             </div>
             <div><h5 className="mb-4">What is the purpose of the platform</h5>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</p></div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&lsquo;s standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&lsquo;s standard dummy text ever since the 1500s...</p></div>
         </div>
         <div className="bg-gray-100 w-full md:flex md:items-center gap-5 px-10 py-5 rounded-md mb-4 mt-4">
             <div className="p-6 flex justify-center items-center md:block bg-sub-bg w-18">
@@ -35,7 +35,7 @@ function Tutorial() {
             </div>
             </div>
             <div><h5 className="mb-4">What is the purpose of the platform</h5>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</p></div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&lsquo;s standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&lsquo;s standard dummy text ever since the 1500s...</p></div>
         </div>
       </div>
     </div>

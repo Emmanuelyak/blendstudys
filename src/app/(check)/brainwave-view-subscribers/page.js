@@ -4,6 +4,7 @@ import AdminNav from "../admin-nav";
 import { Dropdown } from "rsuite";
 import { IoIosEye } from "react-icons/io";
 import { MdOutlineCheckBox } from "react-icons/md";
+import Image from "next/image";
 export default function AllTest() {
   return (
     <div className="w-full relative 2xl:mb-0 lg:mb-0 md:mb-0 sm:mb-32">

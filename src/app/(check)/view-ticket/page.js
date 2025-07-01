@@ -1,5 +1,5 @@
 "use client";
-import React, {useRef} from "react";
+import React, {useRef, useState} from "react";
 import AdminNav from "@/app/(check)/admin-nav";
 import { Dropdown, IconButton } from "rsuite";
 import { FiMoreVertical } from "react-icons/fi";
@@ -7,12 +7,12 @@ import ManageTestRooms from "../manage-test-room-2/page";
 import Image from "next/image";
 
 export default function ManageTestRoomsTable() {
-  const ref = useRef(null);
-  const show = ref(false);
+ 
+  const [show, setShow] = useState(false);
   const icon = `<div className="flex flex-col gap-1">&#9679;&#9679;&#9679;</div>`;
   console.log(icon);
   const onClick = () => {
-    show.current = !show;
+    setShow((prev) => !prev);
   };
   return (
     <div>
