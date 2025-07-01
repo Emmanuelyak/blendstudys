@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import AdminNav from "@/app/(check)/admin-nav";
+import AdminNav from "@/components/admin-nav";
 import { ChevronRight, ChevronDown } from "lucide-react";
 import { Dropdown, Button, ButtonToolbar } from "rsuite";
 import { FeedbackModal } from "@/app/feedback/feedback-modal";

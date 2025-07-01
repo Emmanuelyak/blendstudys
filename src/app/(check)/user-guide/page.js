@@ -1,4 +1,4 @@
-import AdminNav from "../admin-nav";
+import AdminNav from "../../../components/admin-nav";
 
 function UserGuide() {
   return (

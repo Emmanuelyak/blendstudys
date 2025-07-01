@@ -1,6 +1,6 @@
 "use client";
 import React, { useRef } from "react";
-import AdminNav from "@/app/(check)/admin-nav";
+import AdminNav from "@/components/admin-nav";
 import { Dropdown, IconButton } from "rsuite";
 import { FiMoreVertical } from "react-icons/fi";
 import ManageTestRooms from "../manage-test-room-2/page";

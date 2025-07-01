@@ -1,6 +1,6 @@
 "use client";
 import React, { useRef, useState } from "react";
-import AdminNav from "@/app/(check)/admin-nav";
+import AdminNav from "@/components/admin-nav";
 import ManageTestRooms from "../manage-test-room-2/page";
 import Image from "next/image";
 

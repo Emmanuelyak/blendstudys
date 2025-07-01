@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import AdminNav from "../admin-nav";
+import AdminNav from "../../../components/admin-nav";
 import { Dropdown } from "rsuite";
 import { RxDotsHorizontal } from "react-icons/rx";
 import Image from "next/image";

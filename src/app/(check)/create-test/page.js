@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
-import AdminNav from "../../components/admin-nav";
 import { Dropdown } from "rsuite";
 import Image from "next/image";
+import AdminNav from "../../../components/admin-nav";
 
 function CreateTest() {
   return (
