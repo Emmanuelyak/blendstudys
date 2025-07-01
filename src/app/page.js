@@ -1,9 +1,9 @@
 "use client";
 import Footer from "../components/footer/footer";
 import Navigation from "@/components/ui/navigation/navigation";
-import Rating from "@/app/rating/rating";
 import Image from "next/image";
 import Banner from "../components/banner/banner";
+import Rating from "../components/rating/rating";
 
 export default function Home() {
   return (
